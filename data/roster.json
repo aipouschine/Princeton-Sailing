@@ -1,0 +1,53 @@
+{ 
+   "officers": [
+      {
+         "name":"Adrija Navarro",
+         "netid":"anavarro",
+         "year":"2015",
+         "position":"Commodore",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Andrew Grasso",
+         "netid":"agrasso",
+         "year":"2015",
+         "position":"Practice Captain",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Sterling Sipp",
+         "netid":"esipp",
+         "year":"2016",
+         "position":"Regatta Captain",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Michael Moorin",
+         "netid":"mmoorin",
+         "year":"2016",
+         "position":"Treasurer",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Summer Shaw",
+         "netid":"syshaw",
+         "year":"2016",
+         "position":"Secretary",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Colby Morris",
+         "netid":"colby",
+         "year":"2016",
+         "position":"Fleet Captain",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      }
+   ]
+}
+      

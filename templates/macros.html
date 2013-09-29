@@ -1,0 +1,50 @@
+{% macro fill_roster(team) -%}
+<div class="row">
+   {% set rowCount = 0 %}
+   {% for officer in team['officers'] %}
+      {{ roster_entry(officer) }}
+      {% set rowCount = rowCount + 1 %}
+      {% if rowCount == 4 %}
+         </div>
+         <div class="row">
+         {% set rowCount = 0 %}
+      {% endif %}
+   {% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro roster_entry(sailor) -%}
+   <div class="col-lg-3">
+      <a data-toggle="modal" href="#{{sailor['netid']}}" class="thumbnail">
+         <img src="{{ sailor['img'] }}">
+         <div class="caption">
+            <h4>{{sailor['name']}}</h4>
+            <p>{{sailor['position']}}</p>
+            <p>Class of {{ sailor['year'] }}</p>
+         </div>
+      </a>
+   </div>
+   <div class="modal fade" id="{{sailor['netid']}}">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+               <h4 class="modal-title">{{sailor['name']}}</h4>
+            </div>
+            <div class="modal-body">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <img class="rosterPop" src="{{ sailor['img'] }}">
+                  </div>
+                  <div class="col-lg-6">
+                     <h4>{{sailor['name']}}</h4>
+                     <h5>{{sailor['position']}}</h5>
+                     <h5>Class of {{sailor['year']}}</h5>
+                     <p>{{sailor['bio']}}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+{%- endmacro %}
