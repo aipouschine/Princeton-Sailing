@@ -1,0 +1,76 @@
+@pton-orange:#EE7F2D;
+@pton-black:black;
+@light-grey:#eee;
+@header-height:45px;
+
+
+body {
+  margin:0px;
+}
+ul {
+  list-style-type:none;
+}
+
+.header {
+  background-color:@pton-orange;
+  height:@header-height;
+  .brand {
+    margin: 5px 10px;
+    float:right;
+    font-size:2em;
+    font-weight:bold;
+    .pton {
+      color:@pton-black;
+    }
+    .sailing {
+      color:white;
+    }
+  }
+}
+
+.nav {
+  background-color:@light-grey;
+  position:absolute;
+  top:@header-height;
+  li {
+    margin:5px;
+    a {
+      color: black;
+      text-decoration:none;
+      &:hover {
+        text-decoration:underline;
+        }
+    }
+  }
+}
+
+#BG_WRAPPER {
+   position:fixed;
+   height:100%;
+   width:100%;
+   top:0;
+   z-index:-1;
+}
+
+#BG_WRAPPER .background {
+   height:100%;
+   width:100%;
+   background:url('img/home_bg_small.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+.centerPanel {
+   margin:0 10% 20px;
+}
+
+.thumbnail .caption {
+   text-align:center;
+}
+
+.rosterPop {
+   width:100%;
+}
