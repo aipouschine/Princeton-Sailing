@@ -1,8 +1,9 @@
 @pton-orange:#EE7F2D;
 @pton-black:black;
 @light-grey:#eee;
-@header-height:45px;
+@header-height:55px;
 
+@import "fonts.less";
 
 body {
   margin:0px;
@@ -17,8 +18,9 @@ ul {
   .brand {
     margin: 5px 10px;
     float:right;
-    font-size:2em;
+    font-size:3em;
     font-weight:bold;
+    font-family: PrincetonMonticelloBD;
     .pton {
       color:@pton-black;
     }
@@ -29,6 +31,7 @@ ul {
 }
 
 .nav {
+  margin: 10px;
   background-color:@light-grey;
   position:absolute;
   top:@header-height;
