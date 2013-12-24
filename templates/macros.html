@@ -14,14 +14,12 @@
 {%- endmacro %}
 
 {% macro roster_entry(sailor) -%}
-   <div>
-      <a href="#{{sailor['netid']}}" class="thumbnail">
-         <img src="{{ sailor['img'] }}">
-         <div class="caption">
-            <h4>{{sailor['name']}}</h4>
-            <p>{{sailor['position']}}</p>
-            <p>Class of {{ sailor['year'] }}</p>
-         </div>
-      </a>
+   <div class="sailor">
+       <img class="pic" src="{{ sailor['img'] }}">
+       <div class="caption">
+          <h4>{{sailor['name']}}</h4>
+          <p>{{sailor['position']}}</p>
+          <p>Class of {{ sailor['year'] }}</p>
+       </div>
    </div>
 {%- endmacro %}

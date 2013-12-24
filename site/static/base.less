@@ -1,9 +1,41 @@
 @pton-orange:#EE7F2D;
 @pton-black:black;
 @light-grey:#eee;
+@mid-grey:#888;
 @header-height:55px;
 
 @import "fonts.less";
+
+.border-radius (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+.box {
+  /* Internet Explorer 10 */
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari, Opera, and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+}
+
+
 
 body {
   margin:0px;
@@ -20,13 +52,23 @@ ul {
     float:right;
     font-size:3em;
     font-weight:bold;
-    font-family: PrincetonMonticelloBD;
+    font-family: PrincetonMonticello;
     .pton {
       color:@pton-black;
     }
     .sailing {
       color:white;
     }
+  }
+}
+
+.newsfeed {
+  padding:10px;
+  .article {
+    background-color:@light-grey;
+    .border-radius;
+     margin:0 10% 20px;
+     padding: 5px;
   }
 }
 
@@ -43,6 +85,38 @@ ul {
       &:hover {
         text-decoration:underline;
         }
+    }
+  }
+}
+
+.roster {
+  margin:5px 10% 20px;
+  background:@light-grey;
+  .border-radius;
+  padding:5px;
+  .roster-title {
+    font-family:PrincetonMonticello;
+  }
+  .row {
+    .box;
+    .sailor {
+      padding:10px;
+      width:170px;
+      .border-radius;
+      border:2px solid @mid-grey;
+      margin:5px;
+      .pic {
+        height:150px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      .caption {
+        text-align:center;
+        h4,p {
+          margin:0.1em;
+        }
+      }
     }
   }
 }
@@ -70,9 +144,6 @@ ul {
    margin:0 10% 20px;
 }
 
-.thumbnail .caption {
-   text-align:center;
-}
 
 .rosterPop {
    width:100%;
