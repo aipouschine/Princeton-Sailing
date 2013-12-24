@@ -14,8 +14,8 @@
 {%- endmacro %}
 
 {% macro roster_entry(sailor) -%}
-   <div class="col-lg-3">
-      <a data-toggle="modal" href="#{{sailor['netid']}}" class="thumbnail">
+   <div>
+      <a href="#{{sailor['netid']}}" class="thumbnail">
          <img src="{{ sailor['img'] }}">
          <div class="caption">
             <h4>{{sailor['name']}}</h4>
@@ -23,28 +23,5 @@
             <p>Class of {{ sailor['year'] }}</p>
          </div>
       </a>
-   </div>
-   <div class="modal fade" id="{{sailor['netid']}}">
-      <div class="modal-dialog">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-               <h4 class="modal-title">{{sailor['name']}}</h4>
-            </div>
-            <div class="modal-body">
-               <div class="row">
-                  <div class="col-lg-6">
-                     <img class="rosterPop" src="{{ sailor['img'] }}">
-                  </div>
-                  <div class="col-lg-6">
-                     <h4>{{sailor['name']}}</h4>
-                     <h5>{{sailor['position']}}</h5>
-                     <h5>Class of {{sailor['year']}}</h5>
-                     <p>{{sailor['bio']}}</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
    </div>
 {%- endmacro %}
