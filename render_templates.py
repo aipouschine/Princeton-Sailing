@@ -5,7 +5,7 @@ env = Environment(loader=FileSystemLoader('templates'))
 
 def make_index():
    template = env.get_template('index.html')
-   with open('text/home_text.txt','r') as f:
+   with open('text/home_text.html','r') as f:
       home_text = f.read()
    output = template.render(home_text=home_text)
    with open('site/index.html','w') as f:
