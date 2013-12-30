@@ -9,6 +9,23 @@
 </head>
 <body>
    <div class="header">
+   <ul class="navbar">
+     <li {% if selected == "home" %}class="selected"{% endif %}>
+      <a href="index.html">Home</a>
+     </li>
+     <li{% if selected == "news" %}class="selected"{% endif %}>
+      <a href="news.html">News</a>
+     </li>
+     <li{% if selected == "roster" %}class="selected"{% endif %}>
+      <a href="roster.html">Roster</a>
+     </li>
+     <li{% if selected == "alumni" %}class="selected"{% endif %}>
+      <a href="alumni.html">Alumni</a>
+     </li>
+     <li{% if selected == "photos" %}class="selected"{% endif %}>
+      <a href="photos.html">Photos</a>
+     </li>
+   </ul>
      <div class="brand"><span class="pton">PRINCETON </span>
        <span class="sailing">SAILING</span></div>
    </div>

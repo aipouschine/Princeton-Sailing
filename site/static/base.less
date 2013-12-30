@@ -3,7 +3,10 @@
 @light-grey:#eee;
 @mid-grey:#888;
 @beige:#feffd6;
+
 @header-height:55px;
+
+@header-z-index:10;
 
 @import "fonts.less";
 
@@ -45,12 +48,44 @@ ul {
   list-style-type:none;
 }
 
+#content {
+  margin-top:@header-height;
+}
+
 .header {
   background-color:@pton-orange;
   height:@header-height;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:@header-z-index;
+  .navbar {
+    list-style-type:none;
+    position:absolute;
+    bottom:0;
+    margin:0;
+    li {
+      float:left;
+      text-align:center;
+      border-left:1px solid white;
+      border-top:1px solid white;
+      &:last-child { border-right:1px solid white; }
+      a {
+        padding:10px;
+        display:block;
+        width:60px;
+        text-decoration:none;
+        color:white;
+      }
+    }
+  }
+
   .brand {
     margin: 5px 10px;
-    float:right;
+    position:absolute;
+    top:0;
+    right:0;
     font-size:3em;
     font-weight:bold;
     font-family: PrincetonMonticello;
