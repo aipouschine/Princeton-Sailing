@@ -1,7 +1,9 @@
 @pton-orange:#EE7F2D;
+@dark-orange:#E47523;
 @pton-black:black;
 @light-grey:#eee;
 @mid-grey:#888;
+@semi-grey:rgba(200,200,200,0.7);
 @beige:#feffd6;
 
 @header-height:55px;
@@ -60,6 +62,7 @@ ul {
   left:0;
   right:0;
   z-index:@header-z-index;
+  border-bottom: 2px solid black;
   .navbar {
     list-style-type:none;
     position:absolute;
@@ -70,13 +73,20 @@ ul {
       text-align:center;
       border-left:1px solid white;
       border-top:1px solid white;
+      color:white;
+      font-weight:bold;
       &:last-child { border-right:1px solid white; }
+      border-radius: 5px 5px 0 0;
+      &.selected {
+        background-color:white;
+        color:@pton-orange;
+      }
       a {
         padding:10px;
         display:block;
         width:60px;
         text-decoration:none;
-        color:white;
+        color:inherit;
       }
     }
   }
@@ -101,7 +111,7 @@ ul {
 .newsfeed {
   padding:10px;
   .article {
-    background-color:@beige;
+    background-color:@semi-grey;
     .border-radius;
      margin:0 10% 20px;
      padding: 5px;
@@ -138,7 +148,7 @@ ul {
   .row {
     .box;
     .sailor {
-      background:@beige;
+      background:@semi-grey;
       padding:10px;
       width:170px;
       .border-radius;
