@@ -5,6 +5,7 @@
 @light-grey:#eee;
 @mid-grey:#888;
 @semi-grey:rgba(200,200,200,0.8);
+@near-black:#222;
 @beige:#feffd6;
 
 @header-height:55px;
@@ -113,31 +114,13 @@ ul {
   padding:10px;
   .article {
     background-color:@semi-grey;
+    color:@near-black;
     .border-radius;
      margin:0 10% 20px;
      padding: 5px;
   }
 }
 
-.nav {
-  margin: 10px;
-  background-color:@light-grey;
-  position:absolute;
-  top:@header-height;
-  li {
-    margin:5px;
-    &:not(:last-child) {
-      border-bottom: 2px solid @mid-grey;
-    }
-    a {
-      color: black;
-      text-decoration:none;
-      &:hover {
-        text-decoration:underline;
-        }
-    }
-  }
-}
 
 .roster {
   margin:5px 10% 20px;
