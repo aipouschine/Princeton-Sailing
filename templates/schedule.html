@@ -1,13 +1,22 @@
 {% extends 'base.html' %}
 {% block title %}Schedule{% endblock %}
 {% block content %}
-<table>
-  {% for regatta in schedule %}
-  <tr>
-    <td>{{regatta['date']}}</td>
-    <td>{{regatta['title']}}</td>
-    <td>{{regatta['host']}}</td>
-  </tr>
-  {% endfor %}
-</table>
+<div class="newsfeed">
+  <div class="article">
+    <table>
+      <tr>
+        <td>Date</td>
+        <td>Event</td>
+        <td>Host</td>
+      </tr>
+      {% for regatta in schedule %}
+      <tr>
+        <td>{{regatta['date']}}</td>
+        <td>{{regatta['title']}}</td>
+        <td>{{regatta['host']}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
 {% endblock %}
