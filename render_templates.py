@@ -39,7 +39,9 @@ def make_photos():
 
 def make_schedule():
    template = env.get_template('schedule.html')
-   output = template.render(selected="schedule")
+   with open('data/schedule.json','r') as f:
+      schedule = json.load(f)
+   output = template.render(selected="schedule", schedule=schedule)
    with open('site/schedule.html','w') as f:
      f.write(output)
 
