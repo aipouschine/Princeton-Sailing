@@ -1,9 +1,27 @@
 
 {% macro fill_roster(team) -%}
+<div class="roster-title">
+  <h1>The Officers</h1>
+</div>
 <div class="row">
    {% set rowCount = 0 %}
    {% for officer in team['officers'] %}
       {{ roster_entry(officer) }}
+      {% set rowCount = rowCount + 1 %}
+      {% if rowCount == 6 %}
+         </div>
+         <div class="row">
+         {% set rowCount = 0 %}
+      {% endif %}
+   {% endfor %}
+</div>
+<div class="roster-title">
+  <h1>The Team</h1>
+</div>
+<div class="row">
+   {% set rowCount = 0 %}
+   {% for sailor in team['team'] %}
+      {{ roster_entry(sailor) }}
       {% set rowCount = rowCount + 1 %}
       {% if rowCount == 6 %}
          </div>

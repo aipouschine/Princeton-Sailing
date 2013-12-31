@@ -48,6 +48,50 @@
          "img":"static/img/grasso.jpg",
          "bio":"Bio would go here..."
       }
+   ],
+   "team": [
+      {
+         "name":"Adrija Navarro",
+         "netid":"anavarro",
+         "year":"2015",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Andrew Grasso",
+         "netid":"agrasso",
+         "year":"2015",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Sterling Sipp",
+         "netid":"esipp",
+         "year":"2016",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Michael Moorin",
+         "netid":"mmoorin",
+         "year":"2016",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Summer Shaw",
+         "netid":"syshaw",
+         "year":"2016",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      },
+      {
+         "name":"Colby Morris",
+         "netid":"colby",
+         "year":"2016",
+         "img":"static/img/grasso.jpg",
+         "bio":"Bio would go here..."
+      }
    ]
 }
       
