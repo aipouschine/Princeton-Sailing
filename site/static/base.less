@@ -9,6 +9,7 @@
 @beige:#feffd6;
 
 @header-height:55px;
+@min-width:1110px;
 
 @header-z-index:10;
 
@@ -47,6 +48,7 @@
 
 body {
   margin:0px;
+  min-width:@min-width;
 }
 ul {
   list-style-type:none;
@@ -57,6 +59,7 @@ ul {
 }
 
 .header {
+  min-width:@min-width;
   background-color:@pton-orange;
   height:@header-height;
   position:fixed;
