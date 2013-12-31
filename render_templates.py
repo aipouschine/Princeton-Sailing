@@ -36,12 +36,20 @@ def make_photos():
    output = template.render(selected="photos")
    with open('site/photos.html','w') as f:
       f.write(output)
+
+def make_schedule():
+   template = env.get_template('schedule.html')
+   output = template.render(selected="schedule")
+   with open('site/schedule.html','w') as f:
+     f.write(output)
+
 def main():
    make_index()
    make_roster()
    make_news()
    make_alumni()
    make_photos()
+   make_schedule()
 
 if __name__ == '__main__':
    main()
