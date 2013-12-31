@@ -127,6 +127,16 @@ ul {
   }
 }
 
+#footer {
+  margin:20px 10% 20px;
+  .border-radius;
+  text-align:center;
+  padding: 5px;
+  border:2px solid @near-black;
+  background-color:@pton-orange;
+  color:@near-black;
+}
+
 
 .roster {
   margin:5px 10% 20px;
@@ -139,12 +149,15 @@ ul {
   .row {
     .box;
     .sailor {
-      background:lightgray;
+      background-color:lightgray;
       padding:10px;
       width:135px;
       .border-radius;
       border:2px solid @mid-grey;
       margin:5px;
+      &:hover {
+        background-color:darkgrey;
+      }
       .pic {
         height:115px;
         display:block;

@@ -9,31 +9,36 @@
 </head>
 <body>
    <div class="header">
-   <ul class="navbar">
-     <li{% if selected == "home" %} class="selected"{% endif %}>
-      <a href="index.html">Home</a>
-     </li>
-     <li{% if selected == "news" %} class="selected"{% endif %}>
-      <a href="news.html">News</a>
-     </li>
-     <li{% if selected == "roster" %} class="selected"{% endif %}>
-      <a href="roster.html">Roster</a>
-     </li>
-     <li{% if selected == "alumni" %} class="selected"{% endif %}>
-      <a href="alumni.html">Alumni</a>
-     </li>
-     <li{% if selected == "photos" %} class="selected"{% endif %}>
-      <a href="photos.html">Photos</a>
-     </li>
-     <li{% if selected == "schedule" %} class="selected"{% endif %}>
-      <a href="schedule.html">Schedule</a>
-     </li>
-   </ul>
-     <div class="brand"><span class="pton">PRINCETON </span>
-       <span class="sailing">SAILING</span></div>
+     <ul class="navbar">
+       <li{% if selected == "index" %} class="selected"{% endif %}>
+        <a href="index.html">Home</a>
+       </li>
+       <li{% if selected == "news" %} class="selected"{% endif %}>
+        <a href="news.html">News</a>
+       </li>
+       <li{% if selected == "roster" %} class="selected"{% endif %}>
+        <a href="roster.html">Roster</a>
+       </li>
+       <li{% if selected == "alumni" %} class="selected"{% endif %}>
+        <a href="alumni.html">Alumni</a>
+       </li>
+       <li{% if selected == "photos" %} class="selected"{% endif %}>
+        <a href="photos.html">Photos</a>
+       </li>
+       <li{% if selected == "schedule" %} class="selected"{% endif %}>
+        <a href="schedule.html">Schedule</a>
+       </li>
+     </ul>
+     <div class="brand">
+       <span class="pton">PRINCETON </span>
+       <span class="sailing">SAILING</span>
+     </div>
    </div>
    <div id="content">
       {% block content %}{% endblock %}
+   </div>
+   <div id="footer">
+     <span>Princeton Sailing</span>
    </div>
    <div id="BG_WRAPPER">
      <div class="background"></div>
