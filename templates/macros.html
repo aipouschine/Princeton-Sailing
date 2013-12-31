@@ -34,7 +34,7 @@
 
 {% macro roster_entry(sailor) -%}
    <div class="sailor">
-       <img class="pic" src="{{ sailor['img'] }}">
+       <img class="pic" src="{{ 'static/img/' + sailor['netid']  + '.jpg' }}">
        <div class="caption">
           <h4>{{sailor['name']}}</h4>
           <p>{{sailor['position']}}</p>
