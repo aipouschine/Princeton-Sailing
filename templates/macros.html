@@ -1,10 +1,11 @@
+
 {% macro fill_roster(team) -%}
 <div class="row">
    {% set rowCount = 0 %}
    {% for officer in team['officers'] %}
       {{ roster_entry(officer) }}
       {% set rowCount = rowCount + 1 %}
-      {% if rowCount == 4 %}
+      {% if rowCount == 6 %}
          </div>
          <div class="row">
          {% set rowCount = 0 %}
@@ -23,3 +24,4 @@
        </div>
    </div>
 {%- endmacro %}
+
