@@ -6,40 +6,47 @@
    <title>{% block title %}{% endblock %}</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="static/base.css" rel="stylesheet" media="screen">
+   <script language="javascript" type="text/javascript" src="static/js/jquery-1.10.2.min.js"></script>
+   <script language="javascript" type="text/javascript" src="static/js/ps.js"></script>
 </head>
 <body>
-   <div class="header">
-     <ul class="navbar">
-       <li{% if selected == "index" %} class="selected"{% endif %}>
-        <a href="index.html">Home</a>
-       </li>
-       <li{% if selected == "news" %} class="selected"{% endif %}>
-        <a href="news.html">News</a>
-       </li>
-       <li{% if selected == "roster" %} class="selected"{% endif %}>
-        <a href="roster.html">Roster</a>
-       </li>
-       <li{% if selected == "alumni" %} class="selected"{% endif %}>
-        <a href="alumni.html">Alumni</a>
-       </li>
-       <li{% if selected == "photos" %} class="selected"{% endif %}>
-        <a href="photos.html">Photos</a>
-       </li>
-       <li{% if selected == "schedule" %} class="selected"{% endif %}>
-        <a href="schedule.html">Schedule</a>
-       </li>
-     </ul>
-     <div class="brand">
-       <span class="pton">PRINCETON </span>
-       <span class="sailing">SAILING</span>
+   <div id="header">
+     <div id="brand">
+       <span class="pton">PRINCETON SAILING</span>
+     </div>
+     <div id="navcontainer">
+       <ul id="navbar">
+         <li{% if selected == "index" %} class="selected"{% endif %}>
+          <a href="index.html">Home</a>
+         </li>
+         <li{% if selected == "news" %} class="selected"{% endif %}>
+          <a href="news.html">News</a>
+         </li>
+         <li{% if selected == "roster" %} class="selected"{% endif %}>
+          <a href="roster.html">Roster</a>
+         </li>
+         <li>
+         {# <div class="burgee"></div> #}
+         <img class="burgee" src="static/img/burgee.png"/>
+         </li>
+         <li{% if selected == "alumni" %} class="selected"{% endif %}>
+          <a href="alumni.html">Alumni</a>
+         </li>
+         <li{% if selected == "photos" %} class="selected"{% endif %}>
+          <a href="photos.html">Photos</a>
+         </li>
+         <li{% if selected == "schedule" %} class="selected"{% endif %}>
+          <a href="schedule.html">Schedule</a>
+         </li>
+       </ul>
      </div>
    </div>
    <div id="content">
       {% block content %}{% endblock %}
    </div>
-   <div id="footer">
+   {# <div id="footer">
      <span>Princeton Sailing</span>
-   </div>
+   </div> #}
    <div id="BG_WRAPPER">
      <div class="background"></div>
    </div>

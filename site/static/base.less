@@ -5,10 +5,13 @@
 @light-grey:#eee;
 @mid-grey:#888;
 @semi-grey:rgba(200,200,200,0.8);
+@weak-grey:rgba(200,200,200,0.5);
+@semi-white:rgba(256,256,256,0.8);
+@semi-black:rgba(0,0,0,0.7);
 @near-black:#222;
 @beige:#feffd6;
 
-@header-height:55px;
+@header-height:95px;
 @min-width:1110px;
 
 @header-z-index:10;
@@ -44,6 +47,10 @@
   box-align:center;
 }
 
+.border-box {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+}
 
 
 body {
@@ -57,62 +64,62 @@ ul {
 
 #content {
   margin-top:@header-height;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:scroll;
 }
 
-.header {
-  min-width:@min-width;
-  background-color:@pton-orange;
-  height:@header-height;
+#header {
   position:fixed;
   top:0;
   left:0;
   right:0;
-  z-index:@header-z-index;
-  border-bottom: 2px solid black;
-  .navbar {
-    list-style-type:none;
-    position:absolute;
-    bottom:0;
-    margin:0;
-    li {
-      float:left;
-      text-align:center;
-      border-left:1px solid white;
-      border-top:1px solid white;
-      color:white;
-      font-weight:bold;
-      &:last-child { border-right:1px solid white; }
-      border-radius: 5px 5px 0 0;
-      &:hover {
-        background-color:@dark-orange;
-      } 
-      &.selected {
-        background-color:white;
-        color:@pton-orange;
-      }
-      a {
-        padding:10px;
-        display:block;
-        width:60px;
-        text-decoration:none;
-        color:inherit;
-      }
-    }
-  }
-
-  .brand {
-    margin: 5px 10px;
-    position:absolute;
+  #brand {
     top:0;
-    right:0;
-    font-size:3em;
-    font-weight:bold;
+    width:100%;
+    text-align:center;
+    font-size:1.5em;
     font-family: PrincetonMonticello;
-    .pton {
-      color:@pton-black;
-    }
-    .sailing {
-      color:white;
+    font-weight:bold;
+    color:@pton-orange;
+    margin:15px;
+  }
+  #navcontainer {
+    background:@semi-black;
+    #navbar {
+      list-style-type:none;
+      margin:0;
+      padding-left: 0;
+      width:100%;
+      text-align:center;
+      li {
+        display:inline;
+        text-align:center;
+        color:white;
+        &:hover {
+          a {text-decoration:underline;}
+        } 
+        &.selected {
+          a {
+            font-weight:bold;
+            text-decoration:underline;
+          }
+        }
+        a {
+          padding:10px;
+          width:60px;
+          text-decoration:none;
+          color:inherit;
+        }
+        .burgee {
+          height:2.5em;
+          margin-top:-1em;
+          margin-bottom:-.9em;
+        }
+      }
     }
   }
 }
@@ -120,11 +127,12 @@ ul {
 .newsfeed {
   padding:10px;
   .article {
-    background-color:@semi-grey;
-    color:@near-black;
+    background-color:@semi-black;
+    color:white;
     .border-radius;
-     margin:0 10% 20px;
-     padding: 5px;
+    width:70%;
+    margin:15px auto;
+    padding: 15px;
   }
 }
 
@@ -137,26 +145,23 @@ ul {
 }
 
 
-.roster {
+#roster {
   margin:5px 10% 20px;
-  .border-radius;
   padding:5px;
-  background:@semi-grey;
-  .roster-title {
-    font-family:PrincetonMonticello;
-  }
   .row {
     .box;
     .sailor {
-      background-color:lightgray;
+      background-color:@semi-black;
+      color:white;
       padding:10px;
       //width:135px;
-      width:13%;
-      .border-radius;
-      border:2px solid @mid-grey;
+      width:18%;
+      .border-box;
+      //.border-radius;
+      //borde20r:2px solid @mid-grey;
       margin:5px;
       &:hover {
-        background-color:darkgrey;
+        border:2px solid darkgrey;
       }
       .pic {
         //height:115px;
@@ -164,8 +169,8 @@ ul {
         display:block;
         margin-left:auto;
         margin-right:auto;
-        .border-radius;
-        border: 1px solid @mid-grey;
+        //.border-radius;
+        //border: 1px solid @mid-grey;
       }
       .caption {
         text-align:center;
@@ -193,7 +198,7 @@ ul {
      height:100%;
      width:100%;
      //background:url('img/home_bg_small.jpg') no-repeat center center fixed;
-     background:url('img/hamilton_burr.jpg') no-repeat center center fixed;
+     background:url('img/greta.jpg') no-repeat center center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
