@@ -1,4 +1,9 @@
-
+{% macro nav_button(name,ref=None) -%}
+  {% if ref == None %}{% set ref = name.lower() %}{%endif%}
+  <li{% if selected == "{{ ref }}" %} class="selected"{% endif %}>
+  <a href="{{ ref }}.html">{{name}}</a>
+  </li>
+{%- endmacro %}
 {% macro fill_roster(team) -%}
 <div class="row">
    {% set rowCount = 0 %}
@@ -15,7 +20,7 @@
 {%- endmacro %}
 
 {% macro roster_entry(sailor) -%}
-   <div class="sailor">
+  <div class="sailor" onclick="{{ 'ps.showBio(\'' + sailor['netid'] + '\');'}}">
        <img class="pic" src="{{ 'static/img/' + sailor['netid']  + '.jpg' }}">
        <div class="caption">
           <h4>{{sailor['name']}}</h4>
@@ -25,3 +30,14 @@
    </div>
 {%- endmacro %}
 
+{% macro fill_bios(team) -%}
+  {% for sailor in team %}
+    {{ bio(sailor) }}
+  {% endfor %}
+{%- endmacro %}
+
+{% macro bio(sailor) -%}
+<div class="hidden popup" id="{{ sailor['netid'] }}">
+  <img  src="{{ 'static/img/' + sailor['netid']  + '.jpg' }}">
+</div>
+{%- endmacro %}

@@ -16,28 +16,16 @@
      </div>
      <div id="navcontainer">
        <ul id="navbar">
-         <li{% if selected == "index" %} class="selected"{% endif %}>
-          <a href="index.html">Home</a>
-         </li>
-         <li{% if selected == "news" %} class="selected"{% endif %}>
-          <a href="news.html">News</a>
-         </li>
-         <li{% if selected == "roster" %} class="selected"{% endif %}>
-          <a href="roster.html">Roster</a>
-         </li>
+         {{ macros.nav_button("Home","index") }}
+         {{ macros.nav_button("News") }}
+         {{ macros.nav_button("Roster") }}
          <li>
          {# <div class="burgee"></div> #}
          <img class="burgee" src="static/img/burgee.png"/>
          </li>
-         <li{% if selected == "alumni" %} class="selected"{% endif %}>
-          <a href="alumni.html">Alumni</a>
-         </li>
-         <li{% if selected == "photos" %} class="selected"{% endif %}>
-          <a href="photos.html">Photos</a>
-         </li>
-         <li{% if selected == "schedule" %} class="selected"{% endif %}>
-          <a href="schedule.html">Schedule</a>
-         </li>
+         {{ macros.nav_button("Alumni") }}
+         {{ macros.nav_button("Photos") }}
+         {{ macros.nav_button("Schedule") }}
        </ul>
      </div>
    </div>
@@ -50,4 +38,5 @@
    <div id="BG_WRAPPER">
      <div class="background"></div>
    </div>
+   <div id="mask" class="hidden"></div>
 </body>
