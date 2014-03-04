@@ -1,6 +1,6 @@
-{% macro nav_button(name,ref=None) -%}
+{% macro nav_button(name,ref=None,selected=false) -%}
   {% if ref == None %}{% set ref = name.lower() %}{%endif%}
-  <li{% if selected == "{{ ref }}" %} class="selected"{% endif %}>
+  <li{% if selected  %} class="selected"{% endif %} id="{{ selected }} {{ ref}}">
   <a href="{{ ref }}.html">{{name}}</a>
   </li>
 {%- endmacro %}
@@ -20,13 +20,15 @@
 {%- endmacro %}
 
 {% macro roster_entry(sailor) -%}
-  <div class="sailor" onclick="{{ 'ps.showBio(\'' + sailor['netid'] + '\');'}}">
-       <img class="pic" src="{{ 'static/img/' + sailor['netid']  + '.jpg' }}">
+  <div class="sailor col-md-3" onclick="{{ 'ps.showBio(\'' + sailor['netid'] + '\');'}}">
+    <div class="sailor-inner">
+      <img class="pic" src="{{ 'static/img/' + sailor['netid']  + '.jpg' }}">
        <div class="caption">
           <h4>{{sailor['name']}}</h4>
           <p>{{sailor['position']}}</p>
           <p>Class of {{ sailor['year'] }}</p>
-       </div>
+        </div>
+      </div>
    </div>
 {%- endmacro %}
 
@@ -38,6 +40,17 @@
 
 {% macro bio(sailor) -%}
 <div class="hidden popup" id="{{ sailor['netid'] }}">
-  <img  src="{{ 'static/img/' + sailor['netid']  + '.jpg' }}">
+  <div class="top">
+    <img  src="{{ 'static/img/' + sailor['netid']  + '.jpg' }}">
+    <div class="info">
+      <span class="name">{{ sailor['name'] }}</span>
+      <span class="position">{{ sailor['position'] }}</span>
+      <span class="year">{{ sailor['year'] }}</span>
+      <span class="hometown">{{ sailor['hometown'] }}</span>
+    </div>
+  </div>
+  <div class="personal_bio">
+    {{ sailor['bio'] }}
+  </div>
 </div>
 {%- endmacro %}

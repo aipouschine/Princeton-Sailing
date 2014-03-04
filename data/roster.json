@@ -1,80 +1,78 @@
 [
     {
-       "name":"Adrija Navarro",
-       "netid":"anavarro",
-       "year":"2015",
-       "position":"Commodore",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Andrew Grasso",
+       "name":"Henry Pease",
        "netid":"agrasso",
-       "year":"2015",
-       "position":"Practice Captain",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Sterling Sipp",
-       "netid":"esipp",
        "year":"2016",
-       "position":"Regatta Captain",
+       "position":"Commodore",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Michael Moorin",
-       "netid":"mmoorin",
+       "name":"Sydney Mandelbaum",
+       "netid":"agrasso",
+       "year":"2017",
+       "position":"Practice Captain",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Briana Christophers",
+       "netid":"agrasso",
+       "year":"2017",
+       "position":"Regatta Captain",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Bennett Alvaro",
+       "netid":"agrasso",
        "year":"2016",
        "position":"Treasurer",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Summer Shaw",
-       "netid":"syshaw",
+       "name":"Maggie O'Rourke",
+       "netid":"agrasso",
        "year":"2016",
        "position":"Secretary",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Colby Morris",
-       "netid":"colby",
+       "name":"Bennett Brainard",
+       "netid":"agrasso",
        "year":"2016",
        "position":"Fleet Captain",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Adrija Navarro",
-       "netid":"anavarro",
-       "year":"2015",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Andrew Grasso",
+       "name":"Samantha Gebb",
        "netid":"agrasso",
-       "year":"2015",
+       "year":"2014",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Sterling Sipp",
-       "netid":"esipp",
-       "year":"2016",
+       "name":"Greta Hayes",
+       "netid":"agrasso",
+       "year":"2014",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Michael Moorin",
-       "netid":"mmoorin",
-       "year":"2016",
+       "name":"Sam Heffernan",
+       "netid":"agrasso",
+       "year":"2014",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Summer Shaw",
-       "netid":"syshaw",
-       "year":"2016",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Colby Morris",
-       "netid":"colby",
-       "year":"2016",
+       "name":"Thomas Senecal",
+       "netid":"agrasso",
+       "year":"2014",
+       "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     }
  ]

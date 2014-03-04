@@ -4,17 +4,19 @@
 @pton-black:black;
 @light-grey:#eee;
 @mid-grey:#888;
+@dark-grey:#222;
 @semi-grey:rgba(200,200,200,0.8);
 @weak-grey:rgba(200,200,200,0.5);
 @semi-white:rgba(256,256,256,0.8);
-@semi-black:rgba(0,0,0,0.7);
-@near-black:#222;
+@semi-black:rgba(0,0,0,0.4);
+@semi-blacker:rgba(0,0,0,0.8);
 @beige:#feffd6;
 
 @header-height:95px;
 @min-width:1110px;
 
-@header-z-index:10;
+@header-z-index:90;
+@bios-z-index:100;
 
 @import "fonts.less";
 
@@ -52,10 +54,16 @@
   -moz-box-sizing:border-box; /* Firefox */
 }
 
+.hidden {
+  display:none;
+}
+
 
 body {
   margin:0px;
   min-width:@min-width;
+  //font-family:EngelLight;
+  font-family:ClearSans-Thin;
 }
 ul {
   list-style-type:none;
@@ -77,18 +85,21 @@ ul {
   top:0;
   left:0;
   right:0;
+  z-index:@header-z-index;
   #brand {
     top:0;
     width:100%;
     text-align:center;
-    font-size:1.5em;
+    font-size:2em;
     font-family: PrincetonMonticello;
     font-weight:bold;
+    text-shadow: 1px 1px 1px black;
     color:@pton-orange;
     margin:15px;
   }
   #navcontainer {
     background:@semi-black;
+    padding:2px;
     #navbar {
       list-style-type:none;
       margin:0;
@@ -96,11 +107,13 @@ ul {
       width:100%;
       text-align:center;
       li {
-        display:inline;
+        display:inline-block;
+        width:75px;
         text-align:center;
         color:white;
         &:hover {
-          a {text-decoration:underline;}
+          //a {text-decoration:underline;}
+          a {font-weight:bold;}
         } 
         &.selected {
           a {
@@ -110,7 +123,7 @@ ul {
         }
         a {
           padding:10px;
-          width:60px;
+          width:75px;
           text-decoration:none;
           color:inherit;
         }
@@ -126,6 +139,11 @@ ul {
 
 .newsfeed {
   padding:10px;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
   .article {
     background-color:@semi-black;
     color:white;
@@ -136,36 +154,23 @@ ul {
   }
 }
 
-#footer {
-  font-weight:bold;
-  text-align:center;
-  padding: 5px;
-  background-color:@semi-grey;
-  color:@near-black;
-}
 
 
 #roster {
   margin:5px 10% 20px;
   padding:5px;
   .row {
-    .box;
+    //.box;
     .sailor {
-      background-color:@semi-black;
+      padding-top:15px;
+      padding-bottom:15px;
       color:white;
-      padding:10px;
-      //width:135px;
-      width:18%;
-      .border-box;
-      //.border-radius;
-      //borde20r:2px solid @mid-grey;
-      margin:5px;
-      &:hover {
-        border:2px solid darkgrey;
-      }
+      .sailor-inner {
+        cursor:pointer;
+        background-color:@semi-black;
+        padding:5px;
       .pic {
-        //height:115px;
-        width:80%;
+        width:70%;
         display:block;
         margin-left:auto;
         margin-right:auto;
@@ -178,6 +183,52 @@ ul {
           margin:0.1em;
         }
       }
+    }
+  }
+  }
+}
+
+#bios {
+  position:absolute;
+  z-index:@bios-z-index;
+  .popup {
+    position:fixed;
+    top:100px;
+    left:0;
+    right:0;
+    height:400px;
+    width:500px;
+    background:@dark-grey;
+    margin:auto;
+    color:white;
+    .top {
+      float:left;
+      clear:both;
+      width:100%;
+      img {
+        float:left;
+        width:50%;
+        .border-box;
+        padding:10px;
+      }
+      .info {
+        float:left;
+        width:50%;
+        text-align:center;
+        span {
+          display:block;
+          margin:10px;
+          font-size:1.2em;
+          &.name {
+            font-size:2em;
+            margin:30px 20px;
+          }
+        }
+      }
+    }
+    .personal_bio {
+      float:left;
+      margin:10px;
     }
   }
 }
@@ -210,7 +261,12 @@ ul {
    margin:0 10% 20px;
 }
 
-
-.rosterPop {
-   width:100%;
+#mask {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:@semi-black;
 }
+

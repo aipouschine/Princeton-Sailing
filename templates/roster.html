@@ -2,8 +2,13 @@
 {% block title %}Roster{% endblock %}
 {% block content %}
 <div class="newsfeed">
-  <div id="roster">
+  <div id="roster" class="container-fluid">
      {{ macros.fill_roster(team) }}
   </div>
 </div>
+{% endblock %}
+{% block popups %}
+  <div id="bios">
+    {{ macros.fill_bios(team) }}
+  </div>
 {% endblock %}
