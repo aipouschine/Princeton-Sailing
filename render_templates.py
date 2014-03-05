@@ -1,5 +1,6 @@
 from jinja2 import Environment, FileSystemLoader
 import json
+import markdown
 
 env = Environment(loader=FileSystemLoader('templates'))
 
@@ -13,8 +14,8 @@ tabs = [('Home','index'),
 
 def make_index():
    template = env.get_template('index.html')
-   with open('text/home_text.html','r') as f:
-      home_text = f.read()
+   with open('text/home_text.text','r') as f:
+      home_text = markdown.markdown(f.read(),['extra'])
    output = template.render(tabs=tabs,selected="index",home_text=home_text)
    with open('site/index.html','w') as f:
       f.write(output)
@@ -29,7 +30,9 @@ def make_roster():
 
 def make_news():
    template = env.get_template('news.html')
-   output = template.render(tabs=tabs,selected="news")
+   with open('text/news_text.text','r') as f:
+     news_text = markdown.markdown(f.read(),['extra'])
+     output = template.render(tabs=tabs,selected="news",news_text=news_text)
    with open('site/news.html','w') as f:
       f.write(output)
 
