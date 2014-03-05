@@ -3,17 +3,25 @@
 {% block content %}
 <div class="newsfeed">
   <div class="article">
-    <table class="schedule">
-      <tr>
-        <td>Date</td>
-        <td>Event</td>
-        <td>Host</td>
-      </tr>
+    <table class="table schedule">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Event</th>
+          <th>Host</th>
+        </tr>
+      </thead>
       {% for regatta in schedule %}
       <tr>
-        <td>{{regatta['date']}}</td>
-        <td>{{regatta['title']}}</td>
-        <td>{{regatta['host']}}</td>
+        {% if regatta.results %}
+          <td><a href="{{regatta['results']}}">{{regatta['date']}}</a></td>
+          <td><a href="{{regatta['results']}}">{{regatta['title']}}</a></td>
+          <td><a href="{{regatta['results']}}">{{regatta['host']}}</a></td>
+        {% else %}
+          <td>{{regatta['date']}}</td>
+          <td>{{regatta['title']}}</td>
+          <td>{{regatta['host']}}</td>
+        {% endif %}
       </tr>
       {% endfor %}
     </table>

@@ -8,7 +8,7 @@
 @semi-grey:rgba(200,200,200,0.8);
 @weak-grey:rgba(200,200,200,0.5);
 @semi-white:rgba(256,256,256,0.8);
-@semi-black:rgba(0,0,0,0.4);
+@semi-black:rgba(0,0,0,0.6);
 @semi-blacker:rgba(0,0,0,0.8);
 @beige:#feffd6;
 
@@ -169,13 +169,11 @@ ul {
         cursor:pointer;
         background-color:@semi-black;
         padding:5px;
+        border-radius:3px;
       .pic {
         width:70%;
         display:block;
-        margin-left:auto;
-        margin-right:auto;
-        //.border-radius;
-        //border: 1px solid @mid-grey;
+        margin:10px auto;
       }
       .caption {
         text-align:center;
@@ -234,7 +232,15 @@ ul {
 }
 
 .schedule {
+  tr a {
+    display:block;
+    height:100%;
+    width:100%;
+  }
   td {
+    text-align:center;
+  }
+  th {
     text-align:center;
   }
 }

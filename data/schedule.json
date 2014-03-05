@@ -1,12 +1,33 @@
 [
   {
     "date" : "3/1",
-    "title" : "WAC Off",
-    "host" : "Washington College"
+    "title" : "ODU Spring Open",
+    "host" : "Old Dominion University",
+    "results" : "http://scores.collegesailing.org/s14/odu-spring-open/"
   },
   {
-    "date" : "3/8",
-    "title" : "Princeton Men's",
-    "host" : "Princeton University"
+    "date" : "3/15",
+    "title" : "CNU Women's",
+    "host" : "Christopher Newport University"
+  },
+  {
+    "date" : "3/29",
+    "title" : "CJ's Regatta",
+    "host" : "Christopher Newport University"
+  },
+  {
+    "date" : "3/29",
+    "title" : "Old Guard for Mosbacher / Knapp / Owen Trophies",
+    "host" : "Yale University"
+  },
+  {
+    "date" : "4/12",
+    "title" : "South Spring Qualifier",
+    "host" : "Hampton University"
+  },
+  {
+    "date" : "4/12",
+    "title" : "MAISA Women's Spring Dinghy",
+    "host" : "Cornell University"
   }
 ]
