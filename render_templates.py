@@ -5,10 +5,10 @@ import markdown
 env = Environment(loader=FileSystemLoader('templates'))
 
 tabs = [('Home','index'),
-        ('Roster','roster'),
         ('News','news'),
+        ('Roster','roster'),
         ('Alumni','alumni'),
-        ('Photos','photos'),
+        ('Contact','contact'),
         ('Schedule','schedule')
         ]
 
@@ -42,10 +42,12 @@ def make_alumni():
    with open('site/alumni.html','w') as f:
       f.write(output)
 
-def make_photos():
-   template = env.get_template('photos.html')
-   output = template.render(tabs=tabs,selected="photos")
-   with open('site/photos.html','w') as f:
+def make_contact():
+   template = env.get_template('contact.html')
+   with open('data/images.json') as f:
+     images = json.load(f)
+   output = template.render(tabs=tabs,selected="photos",images=images)
+   with open('site/contact.html','w') as f:
       f.write(output)
 
 def make_schedule():
@@ -61,7 +63,7 @@ def main():
    make_roster()
    make_news()
    make_alumni()
-   make_photos()
+   make_contact()
    make_schedule()
 
 if __name__ == '__main__':

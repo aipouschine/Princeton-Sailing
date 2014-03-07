@@ -54,3 +54,23 @@
   </div>
 </div>
 {%- endmacro %}
+
+{% macro thumbnail(image) -%}
+<div class="thumbnail_wrapper col-md-3">
+  <img class="thumbnail" src="static/img/{{ image['filename'] }}">
+</div>
+{%- endmacro %}
+
+{% macro allThumbnails(images) -%}
+<div class="row">
+   {% set rowCount = 0 %}
+   {% for image in images %}
+      {{ thumbnail(image) }}
+      {% set rowCount = rowCount + 1 %}
+      {% if rowCount == 4 %}
+         </div>
+         <div class="row">
+         {% set rowCount = 0 %}
+      {% endif %}
+   {% endfor %}
+{%- endmacro %}
