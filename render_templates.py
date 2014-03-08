@@ -38,15 +38,19 @@ def make_news():
 
 def make_alumni():
    template = env.get_template('alumni.html')
-   output = template.render(tabs=tabs,selected="alumni")
+   with open('text/alumni_text.text','r') as f:
+     alumni_text = markdown.markdown(f.read(),['extra'])
+   output = template.render(tabs=tabs,selected="alumni",
+       alumni_text=alumni_text)
    with open('site/alumni.html','w') as f:
       f.write(output)
 
 def make_contact():
    template = env.get_template('contact.html')
-   with open('data/images.json') as f:
-     images = json.load(f)
-   output = template.render(tabs=tabs,selected="photos",images=images)
+   with open('text/contact_text.text','r') as f:
+     contact_text = markdown.markdown(f.read(),['extra'])
+   output = template.render(tabs=tabs,selected="photos",
+       contact_text = contact_text)
    with open('site/contact.html','w') as f:
       f.write(output)
 

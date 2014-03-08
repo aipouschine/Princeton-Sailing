@@ -25,7 +25,7 @@
     },
     {
        "name":"Bennett Alvaro",
-       "netid":"agrasso",
+       "netid":"balvaro",
        "year":"2016",
        "position":"Treasurer",
        "hometown":"Princeton, NJ",
@@ -48,6 +48,13 @@
        "bio":"Bio would go here..."
     },
     {
+       "name":"Ashley Barclift",
+       "netid":"barclift",
+       "year":"2014",
+       "hometown":"San Diego, CA",
+       "bio":"Bio would go here..."
+    },
+    {
        "name":"Samantha Gebb",
        "netid":"agrasso",
        "year":"2014",
@@ -63,7 +70,7 @@
     },
     {
        "name":"Sam Heffernan",
-       "netid":"agrasso",
+       "netid":"sheffern",
        "year":"2014",
        "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
