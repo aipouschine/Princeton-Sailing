@@ -16,9 +16,9 @@
        "bio":"Bio would go here..."
     },
     {
-       "name":"Briana Christophers",
+       "name":"Lucy Hayes",
        "netid":"agrasso",
-       "year":"2017",
+       "year":"2016",
        "position":"Regatta Captain",
        "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
@@ -48,37 +48,133 @@
        "bio":"Bio would go here..."
     },
     {
-       "name":"Ashley Barclift",
-       "netid":"barclift",
-       "year":"2014",
-       "hometown":"San Diego, CA",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Samantha Gebb",
+       "name":"Andrew Grasso",
        "netid":"agrasso",
-       "year":"2014",
+       "year":"2015",
        "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Greta Hayes",
+       "name":"Sarah Gross",
        "netid":"agrasso",
-       "year":"2014",
+       "year":"2015",
        "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Sam Heffernan",
-       "netid":"sheffern",
-       "year":"2014",
+       "name":"Adrija Navarro",
+       "netid":"anavarro",
+       "year":"2015",
        "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     },
     {
-       "name":"Thomas Senecal",
+       "name":"Amara Plaza-Jennings",
        "netid":"agrasso",
-       "year":"2014",
+       "year":"2015",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Nelson Collet",
+       "netid":"agrasso",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Layton Hopper",
+       "netid":"agrasso",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Aaron Katz",
+       "netid":"agrasso",
+       "year":"2016",
+       "position":"Fundraising Chair",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Gabriela Leichnitz",
+       "netid":"agrasso",
+       "year":"2016",
+       "position":"Social Chair",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Michael Moorin",
+       "netid":"agrasso",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Liz Ostertag",
+       "netid":"agrasso",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Alec Regulski",
+       "netid":"agrasso",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Summer Shaw",
+       "netid":"syshaw",
+       "year":"2016",
+       "position":"Social Chair",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Sterling Sipp",
+       "netid":"agrasso",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Andrew Sun",
+       "netid":"agrasso",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Colin Lualdi",
+       "netid":"agrasso",
+       "year":"2017",
+       "position":"Tech Chair",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Erik Maritz",
+       "netid":"agrasso",
+       "year":"2017",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Malcolm Steinberg",
+       "netid":"mss4",
+       "year":"2017",
+       "position":"Recruiting Chair",
+       "hometown":"Princeton, NJ",
+       "bio":"Bio would go here..."
+    },
+    {
+       "name":"Yuni Sumawijaya",
+       "netid":"agrasso",
+       "year":"2017",
        "hometown":"Princeton, NJ",
        "bio":"Bio would go here..."
     }

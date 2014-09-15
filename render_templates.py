@@ -49,7 +49,7 @@ def make_contact():
    template = env.get_template('contact.html')
    with open('text/contact_text.text','r') as f:
      contact_text = markdown.markdown(f.read(),['extra'])
-   output = template.render(tabs=tabs,selected="photos",
+   output = template.render(tabs=tabs,selected="contact",
        contact_text = contact_text)
    with open('site/contact.html','w') as f:
       f.write(output)

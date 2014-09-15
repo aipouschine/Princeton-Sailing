@@ -1,33 +1,43 @@
 [
   {
-    "date" : "3/1",
-    "title" : "ODU Spring Open",
+    "date" : "9/13",
+    "title" : "Riley Cup",
     "host" : "Old Dominion University",
-    "results" : "http://scores.collegesailing.org/s14/odu-spring-open/"
+    "results" : "http://scores.collegesailing.org/f14/riley-cup/"
   },
   {
-    "date" : "3/15",
-    "title" : "CNU Women's",
-    "host" : "Christopher Newport University"
+    "date" : "9/20",
+    "title" : "Central Fall Qualifier",
+    "host" : "Washington College"
   },
   {
-    "date" : "3/29",
-    "title" : "CJ's Regatta",
-    "host" : "Christopher Newport University"
+    "date" : "9/20",
+    "title" : "NY Martime Fall Open",
+    "host" : "SUNY Maritime"
   },
   {
-    "date" : "3/29",
-    "title" : "Old Guard for Mosbacher / Knapp / Owen Trophies",
-    "host" : "Yale University"
+    "date" : "9/27",
+    "title" : "Princeton Women's Regatta",
+    "host" : "Princeton"
   },
   {
-    "date" : "4/12",
-    "title" : "South Spring Qualifier",
-    "host" : "Hampton University"
+    "date" : "10/4",
+    "title" : "MAISA Women's Fall Dinghy",
+    "host" : "US Naval Academy"
   },
   {
-    "date" : "4/12",
-    "title" : "MAISA Women's Spring Dinghy",
-    "host" : "Cornell University"
+    "date" : "10/11",
+    "title" : "McCurdy Open",
+    "host" : "University of Delaware"
+  },
+  {
+    "date" : "10/11",
+    "title" : "Intercollegiate Offshore Regatta",
+    "host" : "Larchmont Yacht Club"
+  },
+  {
+    "date" : "10/18",
+    "title" : "Ocean County Fall Open",
+    "host" : "Ocean County College"
   }
 ]
