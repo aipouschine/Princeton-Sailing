@@ -4,5 +4,5 @@ echo "Rendering templates..."
 python render_templates.py
 echo "Done."
 echo "Rendering and compressing css files..."
-lessc --yui-compress site/static/base.less site/static/base.css
+lessc --yui-compress less/base.less site/static/css/base.css
 echo "Done."

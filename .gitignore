@@ -1,0 +1,6 @@
+*.swp
+site/*.html
+text/*.html
+site/static/img*
+.DS_Store
+bootstrap-3.0.0*
