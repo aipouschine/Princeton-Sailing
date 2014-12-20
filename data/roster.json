@@ -1,182 +1,188 @@
 [
     {
-       "name":"Henry Pease",
-       "netid":"agrasso",
+       "name":"Andrew Sun",
+       "netid":"ajsun",
        "year":"2016",
        "position":"Commodore",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Andrew Sun is softer than you can even imagine."
     },
     {
        "name":"Sydney Mandelbaum",
-       "netid":"agrasso",
+       "netid":"smandelbaum",
        "year":"2017",
-       "position":"Practice Captain",
-       "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Lucy Hayes",
-       "netid":"agrasso",
-       "year":"2016",
        "position":"Regatta Captain",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Sydney started sailing at 7 years old on the North Fork of Long Island at The Southold Yacht Club. She has raced in different fleets at numerous venues with a focus on sailing laser radials. Sydney served as practice captain from 2013-2014 and currently brings a depth of knowledge, particularly on how to capsize without getting her hair wet, as regatta captain. She currently skippers for the team."
     },
     {
-       "name":"Bennett Alvaro",
-       "netid":"balvaro",
-       "year":"2016",
+       "name":"Rob Whitaker",
+       "netid":"rwhitaker",
+       "year":"2018",
+       "position":"Practice Captain",
+       "hometown":"Princeton, NJ",
+       "bio":"Rob once fought a punching bag and lost."
+    },
+    {
+       "name":"Cameron Zeluck",
+       "netid":"cdzeluck",
+       "year":"2018",
        "position":"Treasurer",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Cameron \"Space Jam\" Zeluck is frightened of cats."
     },
     {
-       "name":"Maggie O'Rourke",
-       "netid":"agrasso",
-       "year":"2016",
+       "name":"Malcolm Steinberg",
+       "netid":"mss4",
+       "year":"2017",
        "position":"Secretary",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Malcolm puts the lotion in the basket or it gets the hose."
+    },
+    {
+       "name":"Grant Godeke",
+       "netid":"ggodeke",
+       "year":"2017",
+       "position":"Fleet Captain",
+       "hometown":"Princeton, NJ",
+       "bio":"Grant Godeke (prounounced Guh-Dee-Kee) wants to be an astronaut when he grows up."
     },
     {
        "name":"Bennett Brainard",
-       "netid":"agrasso",
-       "year":"2016",
-       "position":"Fleet Captain",
+       "netid":"bennettb",
+       "year":"2017",
+       "position":"Fleet Captain Emeritus",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Believe it or not, ladies, this one's single!"
     },
     {
        "name":"Andrew Grasso",
        "netid":"agrasso",
        "year":"2015",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Andrew has been on the team since his freshman year. He's served as Secretary, Practice Captain, and Fleet Captain Emeritus. He splits time between yelling at skippers from the coach boat and yelling at crews from the back of an FJ. Off the water, Andrew studies Computer Science."
     },
     {
        "name":"Sarah Gross",
-       "netid":"agrasso",
+       "netid":"shgross",
        "year":"2015",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Ew, Gross!"
     },
     {
        "name":"Adrija Navarro",
        "netid":"anavarro",
        "year":"2015",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Meow meow meow meow. Meow meow. Meow meow meow meow meow! Meow."
     },
     {
        "name":"Amara Plaza-Jennings",
-       "netid":"agrasso",
+       "netid":"aplaza",
        "year":"2015",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Amara had fun at a party once. It was terrible."
     },
     {
-       "name":"Nelson Collet",
-       "netid":"agrasso",
+       "name":"Bennett Alvaro",
+       "netid":"balvaro",
        "year":"2016",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Bennett joined the sailing team in 2013 and served as the Treasurer for the 2014 Spring and Fall seasons. Bennett initially joined as a crew in September of his Sophomore year with very little knowledge of sailing and has since begun skippering. An Italian Literature concentrator pursuing a certificate in Creative Writing, Bennett hopes to work in Public Relations and Crisis Management upon graduating."
+    },
+    {
+       "name":"Lucy Hayes",
+       "netid":"lahayes",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"2Cool 4 FB. 2Cool 4 skewl. 2Cool 4 u."
     },
     {
        "name":"Layton Hopper",
-       "netid":"agrasso",
+       "netid":"lkhopper",
        "year":"2016",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Aaron Katz",
-       "netid":"agrasso",
-       "year":"2016",
-       "position":"Fundraising Chair",
-       "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Layton grew up in a small town called Mount Vernon, IN, where he practiced his flirting on farm animals."
     },
     {
        "name":"Gabriela Leichnitz",
-       "netid":"agrasso",
+       "netid":"gtl",
        "year":"2016",
        "position":"Social Chair",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Gym. Tan. Laundry."
     },
     {
        "name":"Michael Moorin",
-       "netid":"agrasso",
+       "netid":"mmoorin",
        "year":"2016",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Dude can't even bagel Brown. lol."
     },
     {
-       "name":"Liz Ostertag",
-       "netid":"agrasso",
+       "name":"Maggie O'Rourke",
+       "netid":"mfo",
        "year":"2016",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"My favorite Christmas present were my rainbows.   They were chestnut and new, flat across the top waiting for my feet to break them in.   Everyday I saw them through the crack in my closet, where they sat comfortably, up front with my Uggs and Birkenstocks even though the weather prevented me from wearing them."
+    },
+    {
+       "name":"Henry Pease",
+       "netid":"hpease",
+       "year":"2016",
+       "hometown":"Princeton, NJ",
+       "bio":"There's nothing sleezy about this peezy!"
     },
     {
        "name":"Alec Regulski",
-       "netid":"agrasso",
+       "netid":"regulski",
        "year":"2016",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Alec once killed a man in Reno, just to watch him die."
     },
     {
        "name":"Summer Shaw",
        "netid":"syshaw",
        "year":"2016",
-       "position":"Social Chair",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Summer \"You can't sit with us\" Shaw used to be the team's social chair, but was asked to step down when she refused to invite any of us to the parties."
     },
     {
-       "name":"Sterling Sipp",
-       "netid":"agrasso",
-       "year":"2016",
+       "name":"Sam Cabot",
+       "netid":"shcabot",
+       "year":"2017",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
-    },
-    {
-       "name":"Andrew Sun",
-       "netid":"agrasso",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Sam's three favorite words are radical, tubular, and gnar."
     },
     {
        "name":"Colin Lualdi",
-       "netid":"agrasso",
+       "netid":"clualdi",
        "year":"2017",
        "position":"Tech Chair",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Colin has seen things that no man should see. Terrible things."
     },
     {
-       "name":"Erik Maritz",
-       "netid":"agrasso",
-       "year":"2017",
+       "name":"Jenny Mu",
+       "netid":"jennym",
+       "year":"2018",
+       "position":"Social Chair",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Jenny's favorite movie is Titanic, but she's never actually gotten around to finishingit. She's pretty sure the boat ends up sinking, but would like for nobody to spoil it for her."
     },
     {
-       "name":"Malcolm Steinberg",
-       "netid":"mss4",
-       "year":"2017",
-       "position":"Recruiting Chair",
+       "name":"Gokul Mukunda",
+       "netid":"gokulpm",
+       "year":"2018",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Gokul doesn't believe in electricity. He's pretty sure that it's just a coverup for the magicians the NSA is hiding, and would love for someone to show him an electron and prove him wrong."
     },
     {
-       "name":"Yuni Sumawijaya",
-       "netid":"agrasso",
-       "year":"2017",
+       "name":"Anna Pouschine",
+       "netid":"aipousch",
+       "year":"2018",
        "hometown":"Princeton, NJ",
-       "bio":"Bio would go here..."
+       "bio":"Anna was raised by wolves. At night, she can be found roaming campus, completely naked, howling at the moon."
     }
  ]
       
