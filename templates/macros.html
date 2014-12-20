@@ -1,6 +1,6 @@
 {% macro nav_button(name,ref=None,selected=false) -%}
   {% if ref == None %}{% set ref = name.lower() %}{%endif%}
-  <li{% if selected  %} class="selected"{% endif %} id="{{ selected }} {{ ref}}">
+  <li{% if selected  %} class="selected"{% endif %} id="{{ref}}">
   <a href="{{ ref }}.html">{{name}}</a>
   </li>
 {%- endmacro %}
