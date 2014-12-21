@@ -1,188 +1,203 @@
 [
     {
-       "name":"Andrew Sun",
-       "netid":"ajsun",
-       "year":"2016",
-       "position":"Commodore",
-       "hometown":"Princeton, NJ",
-       "bio":"Andrew Sun is softer than you can even imagine."
+       "name"     : "Andrew Sun",
+       "netid"    : "ajsun",
+       "year"     : "2016",
+       "position" : "Commodore",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Andrew Sun is softer than you can even imagine."
     },
     {
-       "name":"Sydney Mandelbaum",
-       "netid":"smandelbaum",
-       "year":"2017",
-       "position":"Regatta Captain",
-       "hometown":"Princeton, NJ",
-       "bio":"Sydney started sailing at 7 years old on the North Fork of Long Island at The Southold Yacht Club. She has raced in different fleets at numerous venues with a focus on sailing laser radials. Sydney served as practice captain from 2013-2014 and currently brings a depth of knowledge, particularly on how to capsize without getting her hair wet, as regatta captain. She currently skippers for the team."
+       "name"     : "Sydney Mandelbaum",
+       "netid"    : "smandelbaum",
+       "year"     : "2017",
+       "position" : "Regatta Captain",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Sydney started sailing at 7 years old on the North Fork of Long Island at The Southold Yacht Club. She has raced in different fleets at numerous venues with a focus on sailing laser radials. Sydney served as practice captain from 2013-2014 and currently brings a depth of knowledge, particularly on how to capsize without getting her hair wet, as regatta captain. She currently skippers for the team."
     },
     {
-       "name":"Rob Whitaker",
-       "netid":"rwhitaker",
-       "year":"2018",
-       "position":"Practice Captain",
-       "hometown":"Princeton, NJ",
-       "bio":"Rob once fought a punching bag and lost."
+       "name"     : "Rob Whitaker",
+       "netid"    : "rwhitaker",
+       "year"     : "2018",
+       "position" : "Practice Captain",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Rob once fought a punching bag and lost."
     },
     {
-       "name":"Cameron Zeluck",
-       "netid":"cdzeluck",
-       "year":"2018",
-       "position":"Treasurer",
-       "hometown":"Princeton, NJ",
-       "bio":"Cameron \"Space Jam\" Zeluck is frightened of cats."
+       "name"     : "Cameron Zeluck",
+       "netid"    : "cdzeluck",
+       "year"     : "2018",
+       "position" : "Treasurer",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Cameron \"Space Jam\" Zeluck is frightened of cats."
     },
     {
-       "name":"Malcolm Steinberg",
-       "netid":"mss4",
-       "year":"2017",
-       "position":"Secretary",
-       "hometown":"Princeton, NJ",
-       "bio":"Malcolm puts the lotion in the basket or it gets the hose."
+       "name"     : "Malcolm Steinberg",
+       "netid"    : "mss4",
+       "year"     : "2017",
+       "position" : "Secretary",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Malcolm puts the lotion in the basket or it gets the hose."
     },
     {
-       "name":"Grant Godeke",
-       "netid":"ggodeke",
-       "year":"2017",
-       "position":"Fleet Captain",
-       "hometown":"Princeton, NJ",
-       "bio":"Grant Godeke (prounounced Guh-Dee-Kee) wants to be an astronaut when he grows up."
+       "name"     : "Grant Godeke",
+       "netid"    : "ggodeke",
+       "year"     : "2017",
+       "position" : "Fleet Captain",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Grant Godeke (prounounced Guh-Dee-Kee) wants to be an astronaut when he grows up."
     },
     {
-       "name":"Bennett Brainard",
-       "netid":"bennettb",
-       "year":"2017",
-       "position":"Fleet Captain Emeritus",
-       "hometown":"Princeton, NJ",
-       "bio":"Believe it or not, ladies, this one's single!"
+       "name"     : "Bennett Brainard",
+       "netid"    : "bennettb",
+       "year"     : "2017",
+       "position" : "Fleet Captain Emeritus",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Believe it or not, ladies, this one's single!"
     },
     {
-       "name":"Andrew Grasso",
-       "netid":"agrasso",
-       "year":"2015",
-       "hometown":"Princeton, NJ",
-       "bio":"Andrew has been on the team since his freshman year. He's served as Secretary, Practice Captain, and Fleet Captain Emeritus. He splits time between yelling at skippers from the coach boat and yelling at crews from the back of an FJ. Off the water, Andrew studies Computer Science."
+       "name"     : "Andrew Grasso",
+       "netid"    : "agrasso",
+       "year"     : "2015",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Andrew has been on the team since his freshman year. He's served as Secretary, Practice Captain, and Fleet Captain Emeritus. He splits time between yelling at skippers from the coach boat and yelling at crews from the back of an FJ. Off the water, Andrew studies Computer Science."
     },
     {
-       "name":"Sarah Gross",
-       "netid":"shgross",
-       "year":"2015",
-       "hometown":"Princeton, NJ",
-       "bio":"Ew, Gross!"
+       "name"     : "Sarah Gross",
+       "netid"    : "shgross",
+       "year"     : "2015",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Ew, Gross!"
     },
     {
-       "name":"Adrija Navarro",
-       "netid":"anavarro",
-       "year":"2015",
-       "hometown":"Princeton, NJ",
-       "bio":"Meow meow meow meow. Meow meow. Meow meow meow meow meow! Meow."
+       "name"     : "Adrija Navarro",
+       "netid"    : "anavarro",
+       "year"     : "2015",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Meow meow meow meow. Meow meow. Meow meow meow meow meow! Meow."
     },
     {
-       "name":"Amara Plaza-Jennings",
-       "netid":"aplaza",
-       "year":"2015",
-       "hometown":"Princeton, NJ",
-       "bio":"Amara had fun at a party once. It was terrible."
+       "name"     : "Amara Plaza-Jennings",
+       "netid"    : "aplaza",
+       "year"     : "2015",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Amara had fun at a party once. It was terrible."
     },
     {
-       "name":"Bennett Alvaro",
-       "netid":"balvaro",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"Bennett joined the sailing team in 2013 and served as the Treasurer for the 2014 Spring and Fall seasons. Bennett initially joined as a crew in September of his Sophomore year with very little knowledge of sailing and has since begun skippering. An Italian Literature concentrator pursuing a certificate in Creative Writing, Bennett hopes to work in Public Relations and Crisis Management upon graduating."
+       "name"     : "Bennett Alvaro",
+       "netid"    : "balvaro",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Bennett joined the sailing team in 2013 and served as the Treasurer for the 2014 Spring and Fall seasons. Bennett initially joined as a crew in September of his Sophomore year with very little knowledge of sailing and has since begun skippering. An Italian Literature concentrator pursuing a certificate in Creative Writing, Bennett hopes to work in Public Relations and Crisis Management upon graduating."
     },
     {
-       "name":"Lucy Hayes",
-       "netid":"lahayes",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"2Cool 4 FB. 2Cool 4 skewl. 2Cool 4 u."
+       "name"     : "Lucy Hayes",
+       "netid"    : "lahayes",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "2Cool 4 FB. 2Cool 4 skewl. 2Cool 4 u."
     },
     {
-       "name":"Layton Hopper",
-       "netid":"lkhopper",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"Layton grew up in a small town called Mount Vernon, IN, where he practiced his flirting on farm animals."
+       "name"     : "Layton Hopper",
+       "netid"    : "lkhopper",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Layton grew up in a small town called Mount Vernon, IN, where he practiced his flirting on farm animals."
     },
     {
-       "name":"Gabriela Leichnitz",
-       "netid":"gtl",
-       "year":"2016",
-       "position":"Social Chair",
-       "hometown":"Princeton, NJ",
-       "bio":"Gym. Tan. Laundry."
+       "name"     : "Gabriela Leichnitz",
+       "netid"    : "gtl",
+       "year"     : "2016",
+       "position" : "Social Chair",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Gym. Tan. Laundry."
     },
     {
-       "name":"Michael Moorin",
-       "netid":"mmoorin",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"Dude can't even bagel Brown. lol."
+       "name"     : "Michael Moorin",
+       "netid"    : "mmoorin",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Dude can't even bagel Brown. lol."
     },
     {
-       "name":"Maggie O'Rourke",
-       "netid":"mfo",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"My favorite Christmas present were my rainbows.   They were chestnut and new, flat across the top waiting for my feet to break them in.   Everyday I saw them through the crack in my closet, where they sat comfortably, up front with my Uggs and Birkenstocks even though the weather prevented me from wearing them."
+       "name"     : "Maggie O'Rourke",
+       "netid"    : "mfo",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "My favorite Christmas present were my rainbows.   They were chestnut and new, flat across the top waiting for my feet to break them in.   Everyday I saw them through the crack in my closet, where they sat comfortably, up front with my Uggs and Birkenstocks even though the weather prevented me from wearing them."
     },
     {
-       "name":"Henry Pease",
-       "netid":"hpease",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"There's nothing sleezy about this peezy!"
+       "name"     : "Henry Pease",
+       "netid"    : "hpease",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "There's nothing sleezy about this peezy!"
     },
     {
-       "name":"Alec Regulski",
-       "netid":"regulski",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"Alec once killed a man in Reno, just to watch him die."
+       "name"     : "Alec Regulski",
+       "netid"    : "regulski",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Alec once killed a man in Reno, just to watch him die."
     },
     {
-       "name":"Summer Shaw",
-       "netid":"syshaw",
-       "year":"2016",
-       "hometown":"Princeton, NJ",
-       "bio":"Summer \"You can't sit with us\" Shaw used to be the team's social chair, but was asked to step down when she refused to invite any of us to the parties."
+       "name"     : "Summer Shaw",
+       "netid"    : "syshaw",
+       "year"     : "2016",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Summer \"You can't sit with us\" Shaw used to be the team's social chair, but was asked to step down when she refused to invite any of us to the parties."
     },
     {
-       "name":"Sam Cabot",
-       "netid":"shcabot",
-       "year":"2017",
-       "hometown":"Princeton, NJ",
-       "bio":"Sam's three favorite words are radical, tubular, and gnar."
+       "name"     : "Sam Cabot",
+       "netid"    : "shcabot",
+       "year"     : "2017",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Sam's three favorite words are radical, tubular, and gnar."
     },
     {
-       "name":"Colin Lualdi",
-       "netid":"clualdi",
-       "year":"2017",
-       "position":"Tech Chair",
-       "hometown":"Princeton, NJ",
-       "bio":"Colin has seen things that no man should see. Terrible things."
+       "name"     : "Colin Lualdi",
+       "netid"    : "clualdi",
+       "year"     : "2017",
+       "position" : "Tech Chair",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Colin has seen things that no man should see. Terrible things."
     },
     {
-       "name":"Jenny Mu",
-       "netid":"jennym",
-       "year":"2018",
-       "position":"Social Chair",
-       "hometown":"Princeton, NJ",
-       "bio":"Jenny's favorite movie is Titanic, but she's never actually gotten around to finishingit. She's pretty sure the boat ends up sinking, but would like for nobody to spoil it for her."
+       "name"     : "Leila Clark",
+       "netid"    : "lvclark",
+       "year"     : "2018",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Leila is planning to major in Defense Against the Dark Arts."
     },
     {
-       "name":"Gokul Mukunda",
-       "netid":"gokulpm",
-       "year":"2018",
-       "hometown":"Princeton, NJ",
-       "bio":"Gokul doesn't believe in electricity. He's pretty sure that it's just a coverup for the magicians the NSA is hiding, and would love for someone to show him an electron and prove him wrong."
+       "name"     : "Jenny Mu",
+       "netid"    : "jennym",
+       "year"     : "2018",
+       "position" : "Social Chair",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Jenny's favorite movie is Titanic, but she's never actually gotten around to finishingit. She's pretty sure the boat ends up sinking, but would like for nobody to spoil it for her."
     },
     {
-       "name":"Anna Pouschine",
-       "netid":"aipousch",
-       "year":"2018",
-       "hometown":"Princeton, NJ",
-       "bio":"Anna was raised by wolves. At night, she can be found roaming campus, completely naked, howling at the moon."
+       "name"     : "Gokul Mukunda",
+       "netid"    : "gokulpm",
+       "year"     : "2018",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Gokul doesn't believe in electricity. He's pretty sure that it's just a coverup for the magicians the NSA is hiding, and would love for someone to show him an electron and prove him wrong."
+    },
+    {
+       "name"     : "Anna Pouschine",
+       "netid"    : "aipousch",
+       "year"     : "2018",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Anna was raised by wolves. At night, she can be found roaming campus, completely naked, howling at the moon."
+    },
+    {
+       "name"     : "Aaron Sun",
+       "netid"    : "awsun",
+       "year"     : "2018",
+       "position" : "Tech Chair",
+       "hometown" : "Princeton, NJ",
+       "bio"      : "Aaron can believe it's not butter."
     }
  ]
       
