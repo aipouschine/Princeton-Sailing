@@ -40,8 +40,10 @@ def make_alumni():
    template = env.get_template('alumni.html')
    with open('text/alumni_text.text','r') as f:
      alumni_text = markdown.markdown(f.read(),['extra'])
+   with open('data/fops.json','r') as f:
+     fops_officers = json.load(f)
    output = template.render(tabs=tabs,selected="alumni",
-       alumni_text=alumni_text)
+       alumni_text=alumni_text,fops_officers=fops_officers)
    with open('site/alumni.html','w') as f:
       f.write(output)
 

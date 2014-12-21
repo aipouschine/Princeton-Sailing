@@ -74,3 +74,21 @@
       {% endif %}
    {% endfor %}
 {%- endmacro %}
+
+{% macro fopsEntry(officer) -%}
+<div class="col-md-4">
+  <h4>{{officer['name']}}</h4>
+  <p>{{officer['title']}}</p>
+  <p>{{officer['address']}}</p>
+  <p>{{officer['phone']}}</p>
+  <p><a href="mailto:{{officer['email']}}">{{officer['email']}}</a></p>
+</div>
+{%- endmacro %}
+
+{% macro fopsEntries(fops) -%}
+<div class="row">
+  {% for officer in fops %}
+    {{ fopsEntry(officer) }}
+  {% endfor %}
+</div>
+{%- endmacro %}

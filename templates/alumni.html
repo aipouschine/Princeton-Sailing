@@ -3,5 +3,9 @@
 {% block content %}
 <div class="newsfeed">
   {{ alumni_text }}
+  <div class="article container-fluid" id="fops_officers">
+    <h2>Friends of Princeton Sailing Officers</h2>
+    {{ macros.fopsEntries(fops_officers) }}
+  </div>
 </div>
 {% endblock %}
