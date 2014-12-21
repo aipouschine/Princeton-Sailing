@@ -1,0 +1,21 @@
+[
+  {
+    "name"    : "Greg Davis '00",
+    "title"   : "President",
+    "address" : "25 Orchard Rd Chatham, NJ 07928",
+    "phone"   : "(212) 201-4843",
+    "email"   : "gwdavis@alumni.princeton.edu"
+  },
+  {
+    "name"    : "Anoop Gupta '01",
+    "title"   : "Treasurer",
+    "address" : "8545 166th Ave NE #104 Redmond, WA 98052",
+    "email"   : "anoopg@alumni.princeton.edu"
+  },
+  {
+    "name"    : "Mary Gamber '11",
+    "title"   : "Secretary",
+    "phone"   : "(203) 554-8792",
+    "email"   : "mary.gamber@gmail.com"
+  }
+]
