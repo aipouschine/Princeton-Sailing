@@ -19,7 +19,9 @@ The schedule is stored in data/schedule.json. As with the roster, you can prety 
 The texts for the Home page, Alumni page, News page, and Contact page live in text/home_text.text, text/alumni_text.text, text/news_text.text, and text/contact_text.text, respectively. NOTE: do not modify text/[anything].html. These are generated files.
 
 To get that beautiful styling we want, articles should be wrapped in
+
     <div class="article" markdown="1">
     Your article here...
     </div>
+
 Basically, we want to be able to send a little HTML formatting through the preprocessor in a way that standard Markdown doesn't let us. This lets us do that.
