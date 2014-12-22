@@ -59,7 +59,7 @@
        "name"     : "Andrew Grasso",
        "netid"    : "agrasso",
        "year"     : "2015",
-       "hometown" : "Princeton, NJ",
+       "hometown" : "Old Greenwich, CT",
        "bio"      : "Andrew has been on the team since his freshman year. He's served as Secretary, Practice Captain, and Fleet Captain Emeritus. He splits time between yelling at skippers from the coach boat and yelling at crews from the back of an FJ. Off the water, Andrew studies Computer Science."
     },
     {
@@ -108,7 +108,6 @@
        "name"     : "Gabriela Leichnitz",
        "netid"    : "gtl",
        "year"     : "2016",
-       "position" : "Social Chair",
        "hometown" : "Princeton, NJ",
        "bio"      : "Gym. Tan. Laundry."
     },
@@ -158,7 +157,6 @@
        "name"     : "Colin Lualdi",
        "netid"    : "clualdi",
        "year"     : "2017",
-       "position" : "Tech Chair",
        "hometown" : "Princeton, NJ",
        "bio"      : "Colin has seen things that no man should see. Terrible things."
     },
