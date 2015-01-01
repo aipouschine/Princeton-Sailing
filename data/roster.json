@@ -5,7 +5,7 @@
        "year"     : "2016",
        "position" : "Commodore",
        "hometown" : "Princeton, NJ",
-       "bio"      : "Andrew Sun is softer than you can even imagine."
+       "bio"      : "Andrew joined the team his sophomore year and now serves as the Commodore of the team. As the third and toughest Andrew on the team, most affectionately call him \"Sunny\". Off the water, Andrew studies Operations Research and Financial Engineering."
     },
     {
        "name"     : "Sydney Mandelbaum",
@@ -29,7 +29,7 @@
        "year"     : "2018",
        "position" : "Treasurer",
        "hometown" : "Princeton, NJ",
-       "bio"      : "Cameron \"Space Jam\" Zeluck is frightened of cats."
+       "bio"      : "Cameron, originally from Hong Kong, never had any prior experience in sailing, but chose to join the team in his first week of freshman year after hearing from his sister Sam (Class of '13) about what a great experience it is. Back on campus, he's studying ORFE, and in his spare time enjoys playing piano, and watching movies and basketball."
     },
     {
        "name"     : "Malcolm Steinberg",
@@ -45,7 +45,7 @@
        "year"     : "2017",
        "position" : "Fleet Captain",
        "hometown" : "Princeton, NJ",
-       "bio"      : "Grant Godeke (prounounced Guh-Dee-Kee) wants to be an astronaut when he grows up."
+       "bio"      : "Grant joined the sailing team his sophomore year with no prior sailing experience as a crew and has since become Fleet Captain. Off the water, he is concentrating in Computer Science, is a cycling instructor at Dillon Gym, and works in the campus center."
     },
     {
        "name"     : "Bennett Brainard",
@@ -102,7 +102,7 @@
        "netid"    : "lkhopper",
        "year"     : "2016",
        "hometown" : "Princeton, NJ",
-       "bio"      : "Layton grew up in a small town called Mount Vernon, IN, where he practiced his flirting on farm animals."
+       "bio"      : "Layton has been on the sailing team since his freshman year. He has served as the recruitment chair and the gear chair. He has also managed the team's spring training trip to Florida (where everyone yelled at him for buying the wrong kind of sandwich bread).  He is a Woodrow Wilson School major that hit his peak after winning pole swim Sophomore year."
     },
     {
        "name"     : "Gabriela Leichnitz",
@@ -122,8 +122,8 @@
        "name"     : "Maggie O'Rourke",
        "netid"    : "mfo",
        "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "My favorite Christmas present were my rainbows.   They were chestnut and new, flat across the top waiting for my feet to break them in.   Everyday I saw them through the crack in my closet, where they sat comfortably, up front with my Uggs and Birkenstocks even though the weather prevented me from wearing them."
+       "hometown" : "New Canaan, CT",
+       "bio"      : "Maggie joined the sailing team at the start of her sophomore year in 2013. She is the Recruitment Chair for the 2015 Spring and Fall seasons and served as Secretary for the past year. She is currently a crew for the team, but trying her hand at skippering. Maggie is a Junior at Princeton concentrating in History and pursuing a Finance certificate."
     },
     {
        "name"     : "Henry Pease",
@@ -157,8 +157,8 @@
        "name"     : "Colin Lualdi",
        "netid"    : "clualdi",
        "year"     : "2017",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Colin has seen things that no man should see. Terrible things."
+       "hometown" : "Weston, MA",
+       "bio"      : "Colin joined the team his Freshman year, and has served as the Tech Chair. As a third generation sailor, Colin has been sailing with his family for as long as he can remember. He taught sailing in Boston during high school, and he has enjoyed developing his skills in dinghy racing with the Princeton club sailing team."
     },
     {
        "name"     : "Leila Clark",
@@ -172,8 +172,8 @@
        "netid"    : "jennym",
        "year"     : "2018",
        "position" : "Social Chair",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Jenny's favorite movie is Titanic, but she's never actually gotten around to finishingit. She's pretty sure the boat ends up sinking, but would like for nobody to spoil it for her."
+       "hometown" : "Austin, TX",
+       "bio"      : "Jenny originally hails from Austin, Texas but has since then relocated to New Jersey. She joined the Princeton Sailing Team this year as a crew. When she is not sailing, Jenny enjoys long walks on the beach, appreciating art, and listening to NPR. She currently serves as one of the team's Social Chairs, foreshadowing her future career as a celebrity party planner."
     },
     {
        "name"     : "Gokul Mukunda",
@@ -186,8 +186,9 @@
        "name"     : "Anna Pouschine",
        "netid"    : "aipousch",
        "year"     : "2018",
+       "position" : "Gear Chair",
        "hometown" : "Princeton, NJ",
-       "bio"      : "Anna was raised by wolves. At night, she can be found roaming campus, completely naked, howling at the moon."
+       "bio"      : "Anna is a freshman from New York City. She joined the Princeton sailing team this past fall as a crew with little prior experience and currently serves as the team's gear chair. Off the water, Anna enjoys playing badminton, gardening, and reading Russian literature."
     },
     {
        "name"     : "Aaron Sun",
