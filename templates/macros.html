@@ -96,15 +96,17 @@
 {% macro newsletterLinks(newsletters) -%}
 <div class="article">
   <h2>Newsletter Archives</h2>
+  <table id="newsletters">
   {% for item in newsletters %}
     {% for year in item %}
-    <h3>{{year}}</h3>
-    <ul>
-      {% for issue in item[year] %}
-      <li><a href="/~sailing/newsletters/{{item[year][issue]}}">{{issue}}</a></li>
+    <tr>
+      <td><b>{{year}}</b></td>
+      {% for issue in item[year].keys()[::-1] %}
+      <td><a href="/~sailing/newsletters/{{item[year][issue]}}">{{issue}}</a></td>
       {% endfor %}
     {% endfor %}
-    </ul>
+    </tr>
   {% endfor %}
+  </table>
 </div>
 {%- endmacro %}

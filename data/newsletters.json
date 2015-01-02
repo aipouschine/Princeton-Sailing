@@ -1,5 +1,14 @@
 [
   { "2014-2015" : { "Fall" : "fall14.pdf" } },
   { "2013-2014" : { "Spring" : "spring14.pdf" } },
-  { "2012-2013" : {} }
+  { "2007-2008" : { "Fall" : "Fall07.pdf", "Spring" : "Spring08.pdf" } },
+  { "2006-2007" : { "Fall" : "Fall06.pdf" } },
+  { "2005-2006" : { "Fall" : "fall2005.pdf", "Spring" : "spring06.pdf" } },
+  { "2004-2005" : { "Florida" : "Florida05.html", "Spring" :  "Spring05.pdf" } },
+  { "2003-2004" : { "Fall" : "fall2003.html" } },
+  { "1999-2000" : { "Fall" : "Fall99.html" } },
+  { "1998-1999" : { "Fall" : "Fall98.html", "Spring" : "Spring99.html" } },
+  { "1997-1998" : { "Fall" : "Fall97.html", "Spring" : "Spring98.html" } },
+  { "1996-1997" : { "Fall" : "Fall96.html", "Spring" : "Spring97.html" } },
+  { "1974-1975" : { "Women's Champs" : "WomensChamps%2074-77.pdf" } }
 ]
