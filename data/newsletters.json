@@ -8,7 +8,7 @@
   { "2003-2004" : { "Fall" : "fall2003.html" } },
   { "1999-2000" : { "Fall" : "Fall99.html" } },
   { "1998-1999" : { "Fall" : "Fall98.html", "Spring" : "Spring99.html" } },
-  { "1997-1998" : { "Fall" : "Fall97.html", "Spring" : "Spring98.html" } },
+  { "1997-1998" : { "Fall" : "Fall97.html", "Spring" : "Spring98.html", "Alumni" : "Alumni98.html" } },
   { "1996-1997" : { "Fall" : "Fall96.html", "Spring" : "Spring97.html" } },
   { "1974-1975" : { "Women's Champs" : "WomensChamps%2074-77.pdf" } }
 ]
