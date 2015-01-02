@@ -32,7 +32,9 @@ def make_news():
    template = env.get_template('news.html')
    with open('text/news_text.text','r') as f:
      news_text = markdown.markdown(f.read(),['extra'])
-     output = template.render(tabs=tabs,selected="news",news_text=news_text)
+   with open('data/newsletters.json') as f:
+     newsletters = json.load(f)
+   output = template.render(tabs=tabs,selected="news",news_text=news_text,newsletters=newsletters)
    with open('site/news.html','w') as f:
       f.write(output)
 

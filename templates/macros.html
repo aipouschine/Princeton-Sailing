@@ -92,3 +92,19 @@
   {% endfor %}
 </div>
 {%- endmacro %}
+
+{% macro newsletterLinks(newsletters) -%}
+<div class="article">
+  <h2>Newsletter Archives</h2>
+  {% for item in newsletters %}
+    {% for year in item %}
+    <h3>{{year}}</h3>
+    <ul>
+      {% for issue in item[year] %}
+      <li><a href="/~sailing/newsletters/{{item[year][issue]}}">{{issue}}</a></li>
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+{%- endmacro %}
