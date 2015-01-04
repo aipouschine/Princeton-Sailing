@@ -2,29 +2,32 @@
 {% block title %}Schedule{% endblock %}
 {% block content %}
 <div class="newsfeed">
-  <div class="article">
-    <table class="table schedule">
-      <thead>
+      {% for season in seasons %}
+      <div class="article">
+      <h2>{{season['season']}}</h2>
+      <table class="table schedule">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Event</th>
+            <th>Host</th>
+          </tr>
+        </thead>
+        {% for regatta in season['schedule'] %}
         <tr>
-          <th>Date</th>
-          <th>Event</th>
-          <th>Host</th>
+          {% if regatta.results %}
+            <td><a href="{{regatta['results']}}">{{regatta['date']}}</a></td>
+            <td><a href="{{regatta['results']}}">{{regatta['title']}}</a></td>
+            <td><a href="{{regatta['results']}}">{{regatta['host']}}</a></td>
+          {% else %}
+            <td>{{regatta['date']}}</td>
+            <td>{{regatta['title']}}</td>
+            <td>{{regatta['host']}}</td>
+          {% endif %}
         </tr>
-      </thead>
-      {% for regatta in schedule %}
-      <tr>
-        {% if regatta.results %}
-          <td><a href="{{regatta['results']}}">{{regatta['date']}}</a></td>
-          <td><a href="{{regatta['results']}}">{{regatta['title']}}</a></td>
-          <td><a href="{{regatta['results']}}">{{regatta['host']}}</a></td>
-        {% else %}
-          <td>{{regatta['date']}}</td>
-          <td>{{regatta['title']}}</td>
-          <td>{{regatta['host']}}</td>
-        {% endif %}
-      </tr>
+        {% endfor %}
+      </table>
+      </div>
       {% endfor %}
-    </table>
-  </div>
 </div>
 {% endblock %}

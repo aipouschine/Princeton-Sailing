@@ -61,8 +61,8 @@ def make_contact():
 def make_schedule():
    template = env.get_template('schedule.html')
    with open('data/schedule.json','r') as f:
-      schedule = json.load(f)
-   output = template.render(tabs=tabs,selected="schedule", schedule=schedule)
+      seasons = json.load(f)
+   output = template.render(tabs=tabs,selected="schedule", seasons=seasons)
    with open('site/schedule.html','w') as f:
      f.write(output)
 

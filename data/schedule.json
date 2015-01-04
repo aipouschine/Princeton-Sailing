@@ -1,64 +1,74 @@
 [
-  {
-    "date"    : "9/13",
-    "title"   : "Riley Cup",
-    "host"    : "Old Dominion University",
-    "results" : "http://scores.collegesailing.org/f14/riley-cup/"
+  { "season" : "Spring 2015",
+    "schedule" :
+      [
+        {
+          "date"    : "4/18",
+          "title"   : "Old Guard",
+          "host"    : "Yale"
+        },
+        {
+          "date"    : "4/18",
+          "title"   : "North Spring Qualifier",
+          "host"    : "Cornell"
+        },
+        {
+          "date"    : "5/9",
+          "title"   : "Drexel Open",
+          "host"    : "Drexel"
+        },
+        {
+          "date"    : "5/14",
+          "title"   : "Engineer's Cup",
+          "host"    : "Webb Institute"
+        }
+      ]
   },
-  {
-    "date"    : "9/20",
-    "title"   : "Central Fall Qualifier",
-    "host"    : "Washington College",
-    "results" : "http://scores.collegesailing.org/f14/central-fall-qualifer/"
-  },
-  {
-    "date"    : "9/20",
-    "title"   : "NY Martime Fall Open",
-    "host"    : "SUNY Maritime",
-    "results" : "http://scores.collegesailing.org/f14/ny-maritime-fall-open/"
-  },
-  {
-    "date"    : "9/27",
-    "title"   : "Princeton Women's Regatta",
-    "host"    : "Princeton",
-    "results" : "http://scores.collegesailing.org/f14/princeton-women/"
-  },
-  {
-    "date"    : "10/11",
-    "title"   : "McCurdy Open",
-    "host"    : "University of Delaware",
-    "results" : "http://scores.collegesailing.org/f14/mccurdy"
-  },
-  {
-    "date"    : "10/11",
-    "title"   : "Intercollegiate Offshore Regatta",
-    "host"    : "Larchmont Yacht Club",
-    "results" : "http://www.yachtscoring.com/event_results_cumulative.cfm?eID=1156"
-  },
-  {
-    "date"    : "10/18",
-    "title"   : "Ocean County Fall Open",
-    "host"    : "Ocean County College",
-    "results" : "http://scores.collegesailing.org/f14/ocean-county-fall-open/"
-  },
-  {
-    "date"    : "4/18",
-    "title"   : "Old Guard",
-    "host"    : "Yale"
-  },
-  {
-    "date"    : "4/18",
-    "title"   : "North Spring Qualifier",
-    "host"    : "Cornell"
-  },
-  {
-    "date"    : "5/9",
-    "title"   : "Drexel Open",
-    "host"    : "Drexel"
-  },
-  {
-    "date"    : "5/14",
-    "title"   : "Engineer's Cup",
-    "host"    : "Webb Institute"
+  { "season" : "Fall 2014",
+    "schedule" :
+      [
+        {
+          "date"    : "9/13",
+          "title"   : "Riley Cup",
+          "host"    : "Old Dominion University",
+          "results" : "http://scores.collegesailing.org/f14/riley-cup/"
+        },
+        {
+          "date"    : "9/20",
+          "title"   : "Central Fall Qualifier",
+          "host"    : "Washington College",
+          "results" : "http://scores.collegesailing.org/f14/central-fall-qualifer/"
+        },
+        {
+          "date"    : "9/20",
+          "title"   : "NY Martime Fall Open",
+          "host"    : "SUNY Maritime",
+          "results" : "http://scores.collegesailing.org/f14/ny-maritime-fall-open/"
+        },
+        {
+          "date"    : "9/27",
+          "title"   : "Princeton Women's Regatta",
+          "host"    : "Princeton",
+          "results" : "http://scores.collegesailing.org/f14/princeton-women/"
+        },
+        {
+          "date"    : "10/11",
+          "title"   : "McCurdy Open",
+          "host"    : "University of Delaware",
+          "results" : "http://scores.collegesailing.org/f14/mccurdy"
+        },
+        {
+          "date"    : "10/11",
+          "title"   : "Intercollegiate Offshore Regatta",
+          "host"    : "Larchmont Yacht Club",
+          "results" : "http://www.yachtscoring.com/event_results_cumulative.cfm?eID=1156"
+        },
+        {
+          "date"    : "10/18",
+          "title"   : "Ocean County Fall Open",
+          "host"    : "Ocean County College",
+          "results" : "http://scores.collegesailing.org/f14/ocean-county-fall-open/"
+        }
+      ]
   }
 ]
