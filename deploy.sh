@@ -1,2 +1,4 @@
 #!/bin/bash
-rsync -ahvP --delete /Users/default/Sailing/Sailing_Site/site sailing@arizona.princeton.edu:/u/sailing/public_html
+this_dir=`dirname $0`
+
+rsync -ahvP --delete $this_dir/site sailing@arizona.princeton.edu:/u/sailing/public_html
