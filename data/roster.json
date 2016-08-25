@@ -1,150 +1,67 @@
 [
     {
-       "name"     : "Andrew Sun",
-       "netid"    : "ajsun",
-       "year"     : "2016",
-       "position" : "Commodore",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Andrew joined the team his sophomore year and now serves as the Commodore of the team. As the third and toughest Andrew on the team, most affectionately call him \"Sunny\". Off the water, Andrew studies Operations Research and Financial Engineering."
-    },
-    {
-       "name"     : "Sydney Mandelbaum",
-       "netid"    : "smandelbaum",
-       "year"     : "2017",
-       "position" : "Regatta Captain",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Sydney started sailing at 7 years old on the North Fork of Long Island at The Southold Yacht Club. She has raced in different fleets at numerous venues with a focus on sailing laser radials. Sydney served as practice captain from 2013-2014 and currently brings a depth of knowledge, particularly on how to capsize without getting her hair wet, as regatta captain. She currently skippers for the team."
-    },
-    {
        "name"     : "Rob Whitaker",
        "netid"    : "rwhitaker",
        "year"     : "2018",
-       "position" : "Practice Captain",
-       "hometown" : "Princeton, NJ",
+       "position" : "Commodore",
+       "hometown" : "Cape Cod, MA",
        "bio"      : "Rob once fought a punching bag and lost."
     },
     {
-       "name"     : "Cameron Zeluck",
-       "netid"    : "cdzeluck",
-       "year"     : "2018",
-       "position" : "Treasurer",
-       "hometown" : "Hong Kong",
-       "bio"      : "Cameron, originally from Hong Kong, never had any prior experience in sailing, but chose to join the team in his first week of freshman year after hearing from his sister Sam (Class of '13) about what a great experience it is. Back on campus, he's studying ORFE, and in his spare time enjoys playing piano, and watching movies and basketball."
+       "name"     : "Victoria Tang",
+       "netid"    : "vt2",
+       "year"     : "2019",
+       "position" : "Regatta Captain",
+       "hometown" : "Perth Amboy, NJ",
+       "bio"      : "Victoria is a freshman from the team's second home in Perth Amboy, NJ. She started sailing in high school, where she raced FJs and 420s on her school's team as well as J30s and J105s at the Raritan Yacht Club. She currently skippers and serves as the team's regatta captain."
     },
     {
-       "name"     : "Malcolm Steinberg",
-       "netid"    : "mss4",
-       "year"     : "2017",
+       "name"     : "Daniel Sullivan",
+       "netid"    : "dgs4 ",
+       "year"     : "2019",
+       "position" : "Practice Captain",
+       "hometown" : "Southhold, NY",
+       "bio"      : "Dan doesn't have achivements outside of Princeton Sailing :("
+    },
+    {
+       "name"     : "Christian Pavlakos",
+       "netid"    : "pavlakos",
+       "year"     : "2018",
+       "position" : "Treasurer",
+       "hometown" : "Brooklyn, NY",
+       "bio"      : "Christian's in a frat."
+    },
+    {
+       "name"     : "Eliza Chamberlain",
+       "netid"    : "elizasc",
+       "year"     : "2019",
        "position" : "Secretary",
-       "hometown" : "Chevy Chase, MD",
-       "bio"      : "Malcolm is a sophomore hailing from Chevy Chase, Maryland. He skippers and serves as the team Secretary. In addition to sailing, Malcolm writes for two campus publications: the Nassau Weekly and the Princeton Tiger, a comedy magazine. He has been sailing competitively since his junior year of high school and is delighted to be able to continue with the sport in college."
+       "hometown" : "San Francisco, CA",
+       "bio"      : "Eliza goes by "Lexy" on the weekends."
+    },
+    {
+       "name"     : "Sarah McGuire",
+       "netid"    : "sarahem",
+       "year"     : "2018",
+       "position" : "Fleet Captain",
+       "hometown" : "Vernon, NJ",
+       "bio"      : "Follow her on snapchat to learn more."
     },
     {
        "name"     : "Grant Godeke",
        "netid"    : "ggodeke",
        "year"     : "2017",
-       "position" : "Fleet Captain",
+       "position" : "Fleet Captain Emeritus",
        "hometown" : "Princeton, NJ",
        "bio"      : "Grant joined the sailing team his sophomore year with no prior sailing experience as a crew and has since become Fleet Captain. Off the water, he is concentrating in Computer Science, is a cycling instructor at Dillon Gym, and works in the campus center."
     },
     {
-       "name"     : "Bennett Brainard",
-       "netid"    : "bennettb",
+       "name"     : "Sydney Mandelbaum",
+       "netid"    : "sydneym",
        "year"     : "2017",
-       "position" : "Fleet Captain Emeritus",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Believe it or not, ladies, this one's single!"
-    },
-    {
-       "name"     : "Andrew Grasso",
-       "netid"    : "agrasso",
-       "year"     : "2015",
-       "hometown" : "Old Greenwich, CT",
-       "bio"      : "Andrew has been on the team since his freshman year. He's served as Secretary, Practice Captain, and Fleet Captain Emeritus. He splits time between yelling at skippers from the coach boat and yelling at crews from the back of an FJ. Off the water, Andrew studies Computer Science."
-    },
-    {
-       "name"     : "Sarah Gross",
-       "netid"    : "shgross",
-       "year"     : "2015",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Ew, Gross!"
-    },
-    {
-       "name"     : "Adrija Navarro",
-       "netid"    : "anavarro",
-       "year"     : "2015",
-       "hometown" : "Boston, MA",
-       "bio"      : "Adrija Navarro, originally from Boston, MA, attended The Winsor School for four years, where she gained most of her sailing experience. She joined The Princeton Sailing Team her freshman year. She served as Recruiting Chair and then as Commodore. Off the water, Adrija is majoring in Chemical and Biological Engineering, is a Project Manager for Music is Medicine, and is an Outdoor Action Frosh Trip Leader."
-    },
-    {
-       "name"     : "Amara Plaza-Jennings",
-       "netid"    : "aplaza",
-       "year"     : "2015",
-       "hometown" : "Alameda, CA",
-       "bio"      : "Amara is originally from Alameda, CA, where she spent her summers sailing. She joined the team her freshman year, and served as the gear chair for two years. Amara is a molecular biology major pursuing a certificate in neuroscience."
-    },
-    {
-       "name"     : "Bennett Alvaro",
-       "netid"    : "balvaro",
-       "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Bennett joined the sailing team in 2013 and served as the Treasurer for the 2014 Spring and Fall seasons. Bennett initially joined as a crew in September of his Sophomore year with very little knowledge of sailing and has since begun skippering. An Italian Literature concentrator pursuing a certificate in Creative Writing, Bennett hopes to work in Public Relations and Crisis Management upon graduating."
-    },
-    {
-       "name"     : "Lucy Hayes",
-       "netid"    : "lahayes",
-       "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "2Cool 4 FB. 2Cool 4 skewl. 2Cool 4 u."
-    },
-    {
-       "name"     : "Layton Hopper",
-       "netid"    : "lkhopper",
-       "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Layton has been on the sailing team since his freshman year. He has served as the recruitment chair and the gear chair. He has also managed the team's spring training trip to Florida (where everyone yelled at him for buying the wrong kind of sandwich bread).  He is a Woodrow Wilson School major that hit his peak after winning pole swim Sophomore year."
-    },
-    {
-       "name"     : "Gabriela Leichnitz",
-       "netid"    : "gtl",
-       "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Gym. Tan. Laundry."
-    },
-    {
-       "name"     : "Michael Moorin",
-       "netid"    : "mmoorin",
-       "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Michael puts the lotion in the basket or it gets the hose."
-    },
-    {
-       "name"     : "Maggie O'Rourke",
-       "netid"    : "mfo",
-       "year"     : "2016",
-       "hometown" : "New Canaan, CT",
-       "bio"      : "Maggie joined the sailing team at the start of her sophomore year in 2013. She is the Recruitment Chair for the 2015 Spring and Fall seasons and served as Secretary for the past year. She is currently a crew for the team, but trying her hand at skippering. Maggie is a Junior at Princeton concentrating in History and pursuing a Finance certificate."
-    },
-    {
-       "name"     : "Henry Pease",
-       "netid"    : "hpease",
-       "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "There's nothing sleezy about this peezy!"
-    },
-    {
-       "name"     : "Alec Regulski",
-       "netid"    : "regulski",
-       "year"     : "2016",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Alec once killed a man in Reno, just to watch him die."
-    },
-    {
-       "name"     : "Summer Shaw",
-       "netid"    : "syshaw",
-       "year"     : "2016",
-       "hometown" : "London, England",
-       "bio"      : "Summer joined the sailing team in her freshman year and has served as team Secretary and Social Chair. She is mainly a crew, but occasionally dabbles in skippering. Summer is a Junior at Princeton in the Woodrow Wilson School, pursuing Certificates in Finance and Environmental Studies."
+       "position" : "Regatta Captain Emeritus",
+       "hometown" : "New York, NY",
+       "bio"      : "Sydney started sailing at 7 years old on the North Fork of Long Island at The Southold Yacht Club. She has raced in different fleets at numerous venues with a focus on sailing laser radials. Sydney served as practice captain from 2013-2014 and currently brings a depth of knowledge, particularly on how to capsize without getting her hair wet, as regatta captain. She currently skippers for the team."
     },
     {
        "name"     : "Sam Cabot",
@@ -166,6 +83,14 @@
        "year"     : "2018",
        "hometown" : "Hong Kong",
        "bio"      : "Leila is Australian-Japanese and lives in Hong Kong, but despite that had very little experience in sailing before joining the team in her freshman fall. She plans to pursuing a Computer Science major (A.B.) and a certificate in Defence against the Dark Arts."
+    },    
+    {
+       "name"     : "Nick Jonsson",
+       "netid"    : "njonsson",
+       "year"     : "2018",
+       "position" : "Social Chair",
+       "hometown" : "Manhattan Beach, CA",
+       "bio"      : "Nick was previously a notorious presence in Hawaii's underground hula scene."
     },
     {
        "name"     : "Jenny Mu",
@@ -176,27 +101,55 @@
        "bio"      : "Jenny originally hails from Austin, Texas but has since then relocated to New Jersey. She joined the Princeton Sailing Team this year as a crew. When she is not sailing, Jenny enjoys long walks on the beach, appreciating art, and listening to NPR. She currently serves as one of the team's Social Chairs, foreshadowing her future career as a celebrity party planner."
     },
     {
-       "name"     : "Gokul Mukunda",
-       "netid"    : "gokulpm",
+       "name"     : "Ayana Navarro",
+       "netid"    : "amn",
        "year"     : "2018",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "New to sailing when he joined, Gokul has grown to love crewing for the team. Outside of sailing, Gokul is pursuing a degree in economics, and enjoys playing guitar, long-boarding, and learning to speak Swahili."
+       "hometown" : "Long Beach, NY",
+       "bio"      : "From this moment on, Aryana knew she was never destined for the ski team."
     },
     {
        "name"     : "Anna Pouschine",
        "netid"    : "aipousch",
        "year"     : "2018",
-       "position" : "Gear Chair",
+       "position" : "Social Chair",
        "hometown" : "Princeton, NJ",
        "bio"      : "Anna is a freshman from New York City. She joined the Princeton sailing team this past fall as a crew with little prior experience and currently serves as the team's gear chair. Off the water, Anna enjoys playing badminton, gardening, and reading Russian literature."
     },
     {
-       "name"     : "Aaron Sun",
-       "netid"    : "awsun",
+       "name"     : "Anna Stillman",
+       "netid"    : "ads4 ",
        "year"     : "2018",
-       "position" : "Tech Chair",
-       "hometown" : "Princeton, NJ",
-       "bio"      : "Aaron can believe it's not butter."
+       "position" : "Gear Chair",
+       "hometown" : "Saint Louis, MO",
+       "bio"      : "Anna plans to include the feather in Princeton Sailing's Fall/Winter 2016 Ready to wear collection."
     }
+    {
+       "name"     : "Alan Balson",
+       "netid"    : "ahbalson",
+       "year"     : "2019",
+       "hometown" : "Newton, MA",
+       "bio"      : "Alan has thiiiiis much sailing experience"
+    },
+    {
+       "name"     : "Claire Coughlin",
+       "netid"    : "cc38",
+       "year"     : "2019",
+       "hometown" : "New York, NY",
+       "bio"      : "Shoutout to Claire for managing to balance a pumpkin on her head. What a lass."
+    },
+    {
+       "name"     : "Paul Kigawa",
+       "netid"    : "pkigawa",
+       "year"     : "2019",
+       "hometown" : "New York, NY",
+       "bio"      : "Paul joined the sailing team his freshman fall. Though undecided, Paul hopes to concentrate in Classics or Woodrow Wilson School. He spends most of his time commuting to and from his room in Forbes."
+    },
+    {
+       "name"     : "Lisa Sheridan",
+       "netid"    : "lmas",
+       "year"     : "2019",
+       "hometown" : "Enniskillen, UK",
+       "bio"      : "Lisa joined the sailing team in her freshman year. She started sailing catamarans at 14 years old on a family holiday in Turkey. She continued to sailing Toppers and GP14s at home in Northern Ireland, eventually becoming an instructor for beginner sailors. She plans to major in EEB."
+    },
  ]
       
